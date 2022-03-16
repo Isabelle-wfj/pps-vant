@@ -1,39 +1,46 @@
 // Color Palette
-@black: #000;
+@black: #141414;
 @white: #fff;
-@gray-1: #f7f8fa;
+@bg-color: #f5f5f5;
 @gray-2: #f2f3f5;
-@gray-3: #ebedf0;
-@gray-4: #dcdee0;
-@gray-5: #c8c9cc;
-@gray-6: #969799;
-@gray-7: #646566;
-@gray-8: #323233;
-@red: #ee0a24;
-@blue: #1989fa;
-@orange: #ff976a;
+@line-color: #e0e0e0;
+@tip-color: #bebebe;
+@disabled-color: rgba(20, 20, 20, 0.3);
+@desc-color: #999999;
+@sec-color: #666666; // 次要文案
+@gray-8: #141414;
+@red: #ff603f;
+@blue: #0066ff;
+@orange: #fd9d00;
 @orange-dark: #ed6a0c;
 @orange-light: #fffbe8;
-@green: #07c160;
+@green: #34a876;
+@text-link-color: #586a95;
+// @overlay-background-color: rgba(0, 0, 0, 0.8); 在组件overlay已有定义
 
 // Gradient Colors
 @gradient-red: linear-gradient(to right, #ff6034, #ee0a24);
 @gradient-orange: linear-gradient(to right, #ffd01e, #ff8917);
 
+// Shadow
+@shadow-lightly: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+@shadow-light: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
+@shadow-heavy: 0px 10px 28px 0px rgba(0, 0, 0, 0.12);
+
 // Component Colors
-@primary-color: var(--van-blue);
+@primary-color: var(--van-black);
 @success-color: var(--van-green);
 @danger-color: var(--van-red);
 @warning-color: var(--van-orange);
 @text-color: var(--van-gray-8);
-@text-color-2: var(--van-gray-6);
-@text-color-3: var(--van-gray-5);
-@text-link-color: #576b95;
+@text-color-2: var(--van-desc-color);
+@text-color-3: var(--van-disabled-color);
 @active-color: var(--van-gray-2);
 @active-opacity: 0.6;
 @disabled-opacity: 0.5;
-@background-color: var(--van-gray-1);
+@background-color: var(--van-bg-color);
 @background-color-light: var(--van-white);
+@button-disabled-bg: #f5f5f5;
 
 // Padding
 @padding-base: 4px;
@@ -66,7 +73,7 @@
 @animation-timing-function-leave: ease-in;
 
 // Border
-@border-color: var(--van-gray-3);
+@border-color: var(--van-line-color);
 @border-width-base: 1px;
 @border-radius-sm: 2px;
 @border-radius-md: 4px;

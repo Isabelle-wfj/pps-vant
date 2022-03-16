@@ -200,7 +200,7 @@ import type { SliderProps } from 'vant';
 | 名称 | 默认值 | 描述 |
 | --- | --- | --- |
 | --van-slider-active-background-color | _var(--van-primary-color)_ | - |
-| --van-slider-inactive-background-color | _var(--van-gray-3)_ | - |
+| --van-slider-inactive-background-color | _var(--van-line-color)_ | - |
 | --van-slider-disabled-opacity | _var(--van-disabled-opacity)_ | - |
 | --van-slider-bar-height | _2px_ | - |
 | --van-slider-button-width | _24px_ | - |

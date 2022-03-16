@@ -186,10 +186,10 @@ import type { RateProps } from 'vant';
 
 组件提供了下列 CSS 变量，可用于自定义样式，使用方法请参考 [ConfigProvider 组件](#/zh-CN/config-provider)。
 
-| 名称                           | 默认值                    | 描述 |
-| ------------------------------ | ------------------------- | ---- |
-| --van-rate-icon-size           | _20px_                    | -    |
-| --van-rate-icon-gutter         | _var(--van-padding-base)_ | -    |
-| --van-rate-icon-void-color     | _var(--van-gray-5)_       | -    |
-| --van-rate-icon-full-color     | _var(--van-danger-color)_ | -    |
-| --van-rate-icon-disabled-color | _var(--van-gray-5)_       | -    |
+| 名称                           | 默认值                      | 描述 |
+| ------------------------------ | --------------------------- | ---- |
+| --van-rate-icon-size           | _20px_                      | -    |
+| --van-rate-icon-gutter         | _var(--van-padding-base)_   | -    |
+| --van-rate-icon-void-color     | _var(--van-disabled-color)_ | -    |
+| --van-rate-icon-full-color     | _var(--van-danger-color)_   | -    |
+| --van-rate-icon-disabled-color | _var(--van-disabled-color)_ | -    |

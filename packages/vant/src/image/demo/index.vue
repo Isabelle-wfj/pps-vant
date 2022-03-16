@@ -136,7 +136,7 @@ const positions2 = ['top', 'center', 'bottom'] as const;
 
   .text {
     margin-top: 5px;
-    color: var(--van-gray-7);
+    color: var(--van-sec-color);
     font-size: 14px;
     text-align: center;
   }

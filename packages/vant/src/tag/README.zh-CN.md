@@ -160,5 +160,5 @@ import type { TagSize, TagType, TagProps } from 'vant';
 | --van-tag-primary-color | _var(--van-primary-color)_ | - |
 | --van-tag-success-color | _var(--van-success-color)_ | - |
 | --van-tag-warning-color | _var(--van-warning-color)_ | - |
-| --van-tag-default-color | _var(--van-gray-6)_ | - |
+| --van-tag-default-color | _var(--van-desc-color)_ | - |
 | --van-tag-plain-background-color | _var(--van-background-color-light)_ | - |

@@ -16,13 +16,13 @@ There are some [basic variables](<(https://github.com/youzan/vant/blob/dev/packa
 // Color Palette
 @black: #000;
 @white: #fff;
-@gray-1: #f7f8fa;
+@bg-color: #f7f8fa;
 @gray-2: #f2f3f5;
-@gray-3: #ebedf0;
-@gray-4: #dcdee0;
-@gray-5: #c8c9cc;
-@gray-6: #969799;
-@gray-7: #646566;
+@line-color: #ebedf0;
+@tip-color: #dcdee0;
+@disabled-color: #c8c9cc;
+@desc-color: #969799;
+@sec-color: #646566;
 @gray-8: #323233;
 @red: #ee0a24;
 @blue: #1989fa;
@@ -40,7 +40,7 @@ There are some [basic variables](<(https://github.com/youzan/vant/blob/dev/packa
 @active-color: @gray-2;
 @active-opacity: 0.7;
 @disabled-opacity: 0.5;
-@background-color: @gray-1;
+@background-color: @bg-color;
 @background-color-light: @white;
 @text-link-color: #576b95;
 
@@ -75,7 +75,7 @@ There are some [basic variables](<(https://github.com/youzan/vant/blob/dev/packa
 @animation-timing-function-leave: ease-in;
 
 // Border
-@border-color: @gray-3;
+@border-color: @line-color;
 @border-width-base: 1px;
 @border-radius-sm: 2px;
 @border-radius-md: 4px;

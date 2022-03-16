@@ -178,6 +178,6 @@ import type {
 | --van-popup-transition | _transform var(--van-animation-duration-base)_ | - |
 | --van-popup-round-border-radius | _16px_ | - |
 | --van-popup-close-icon-size | _22px_ | - |
-| --van-popup-close-icon-color | _var(--van-gray-5)_ | - |
+| --van-popup-close-icon-color | _var(--van-disabled-color)_ | - |
 | --van-popup-close-icon-margin | _16px_ | - |
 | --van-popup-close-icon-z-index | _1_ | - |

@@ -133,13 +133,13 @@ Vant 中的 CSS 变量分为 **基础变量** 和 **组件变量**。组件变�
 // Color Palette
 --van-black: #000;
 --van-white: #fff;
---van-gray-1: #f7f8fa;
+--van-bg-color: #f7f8fa;
 --van-gray-2: #f2f3f5;
---van-gray-3: #ebedf0;
---van-gray-4: #dcdee0;
---van-gray-5: #c8c9cc;
---van-gray-6: #969799;
---van-gray-7: #646566;
+--van-line-color: #ebedf0;
+--van-tip-color: #dcdee0;
+--van-disabled-color: #c8c9cc;
+--van-desc-color: #969799;
+--van-sec-color: #646566;
 --van-gray-8: #323233;
 --van-red: #ee0a24;
 --van-blue: #1989fa;
@@ -158,13 +158,13 @@ Vant 中的 CSS 变量分为 **基础变量** 和 **组件变量**。组件变�
 --van-danger-color: var(--van-red);
 --van-warning-color: var(--van-orange);
 --van-text-color: var(--van-gray-8);
---van-text-color-2: var(--van-gray-6);
---van-text-color-3: var(--van-gray-5);
+--van-text-color-2: var(--van-desc-color);
+--van-text-color-3: var(--van-disabled-color);
 --van-text-link-color: #576b95;
 --van-active-color: var(--van-gray-2);
 --van-active-opacity: 0.6;
 --van-disabled-opacity: 0.5;
---van-background-color: var(--van-gray-1);
+--van-background-color: var(--van-bg-color);
 --van-background-color-light: var(--van-white);
 
 // Padding
@@ -198,7 +198,7 @@ Vant 中的 CSS 变量分为 **基础变量** 和 **组件变量**。组件变�
 --van-animation-timing-function-leave: ease-in;
 
 // Border
---van-border-color: var(--van-gray-3);
+--van-border-color: var(--van-line-color);
 --van-border-width-base: 1px;
 --van-border-radius-sm: 2px;
 --van-border-radius-md: 4px;

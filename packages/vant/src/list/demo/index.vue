@@ -132,7 +132,7 @@ const onRefresh = (index: number) => {
   .page-desc {
     margin: 0;
     padding: 5px 0;
-    color: var(--van-gray-7);
+    color: var(--van-sec-color);
     font-size: 14px;
     text-align: center;
 
@@ -146,7 +146,7 @@ const onRefresh = (index: number) => {
   }
 
   .van-checkbox__label {
-    color: var(--van-gray-7);
+    color: var(--van-sec-color);
   }
 }
 </style>

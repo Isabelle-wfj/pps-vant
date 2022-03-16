@@ -307,7 +307,7 @@ The component provides the following CSS variables, which can be used to customi
 | --van-cascader-title-font-size | _var(--van-font-size-lg)_ | - |
 | --van-cascader-title-line-height | _20px_ | - |
 | --van-cascader-close-icon-size | _22px_ | - |
-| --van-cascader-close-icon-color | _var(--van-gray-5)_ | - |
+| --van-cascader-close-icon-color | _var(--van-disabled-color)_ | - |
 | --van-cascader-selected-icon-size | _18px_ | - |
 | --van-cascader-tabs-height | _48px_ | - |
 | --van-cascader-active-color | _var(--van-danger-color)_ | - |

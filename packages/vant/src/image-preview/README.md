@@ -246,6 +246,6 @@ The component provides the following CSS variables, which can be used to customi
 | --van-image-preview-index-text-shadow | _0 1px 1px var(--van-gray-8)_ | - |
 | --van-image-preview-overlay-background-color | _rgba(0, 0, 0, 0.9)_ | - |
 | --van-image-preview-close-icon-size | _22px_ | - |
-| --van-image-preview-close-icon-color | _var(--van-gray-5)_ | - |
+| --van-image-preview-close-icon-color | _var(--van-disabled-color)_ | - |
 | --van-image-preview-close-icon-margin | _var(--van-padding-md)_ | - |
 | --van-image-preview-close-icon-z-index | _1_ | - |

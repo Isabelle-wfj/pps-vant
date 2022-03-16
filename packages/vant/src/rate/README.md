@@ -168,10 +168,10 @@ import type { RateProps } from 'vant';
 
 The component provides the following CSS variables, which can be used to customize styles. Please refer to [ConfigProvider component](#/en-US/config-provider).
 
-| Name                           | Default Value             | Description |
-| ------------------------------ | ------------------------- | ----------- |
-| --van-rate-icon-size           | _20px_                    | -           |
-| --van-rate-icon-gutter         | _var(--van-padding-base)_ | -           |
-| --van-rate-icon-void-color     | _var(--van-gray-5)_       | -           |
-| --van-rate-icon-full-color     | _var(--van-danger-color)_ | -           |
-| --van-rate-icon-disabled-color | _var(--van-gray-5)_       | -           |
+| Name                           | Default Value               | Description |
+| ------------------------------ | --------------------------- | ----------- |
+| --van-rate-icon-size           | _20px_                      | -           |
+| --van-rate-icon-gutter         | _var(--van-padding-base)_   | -           |
+| --van-rate-icon-void-color     | _var(--van-disabled-color)_ | -           |
+| --van-rate-icon-full-color     | _var(--van-danger-color)_   | -           |
+| --van-rate-icon-disabled-color | _var(--van-disabled-color)_ | -           |

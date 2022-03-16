@@ -235,12 +235,12 @@ searchRef.value?.focus();
 | --- | --- | --- |
 | --van-search-padding | _10px var(--van-padding-sm)_ | - |
 | --van-search-background-color | _var(--van-background-color-light)_ | - |
-| --van-search-content-background-color | _var(--van-gray-1)_ | - |
+| --van-search-content-background-color | _var(--van-bg-color)_ | - |
 | --van-search-input-height | _34px_ | - |
 | --van-search-label-padding | _0 5px_ | - |
 | --van-search-label-color | _var(--van-text-color)_ | - |
 | --van-search-label-font-size | _var(--van-font-size-md)_ | - |
-| --van-search-left-icon-color | _var(--van-gray-6)_ | - |
+| --van-search-left-icon-color | _var(--van-desc-color)_ | - |
 | --van-search-action-padding | _0 var(--van-padding-xs)_ | - |
 | --van-search-action-text-color | _var(--van-text-color)_ | - |
 | --van-search-action-font-size | _var(--van-font-size-md)_ | - |

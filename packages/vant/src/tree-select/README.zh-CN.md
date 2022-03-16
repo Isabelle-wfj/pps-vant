@@ -256,5 +256,5 @@ import type { TreeSelectItem, TreeSelectChild, TreeSelectProps } from 'vant';
 | --van-tree-select-nav-item-padding | _14px var(--van-padding-sm)_ | - |
 | --van-tree-select-item-height | _48px_ | - |
 | --van-tree-select-item-active-color | _var(--van-danger-color)_ | - |
-| --van-tree-select-item-disabled-color | _var(--van-gray-5)_ | - |
+| --van-tree-select-item-disabled-color | _var(--van-disabled-color)_ | - |
 | --van-tree-select-item-selected-size | _16px_ | - |

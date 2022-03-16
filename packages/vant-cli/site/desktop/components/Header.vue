@@ -10,7 +10,7 @@
           </span>
         </a>
 
-        <ul class="van-doc-header__top-nav">
+        <!-- <ul class="van-doc-header__top-nav">
           <li
             v-for="(item, index) in config.links"
             :key="index"
@@ -60,7 +60,7 @@
             :lang="lang"
             :search-config="searchConfig"
           />
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>

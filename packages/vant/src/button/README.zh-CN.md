@@ -72,8 +72,11 @@ app.use(Button);
 通过 `square` 设置方形按钮，通过 `round` 设置圆形按钮。
 
 ```html
-<van-button square type="primary">方形按钮</van-button>
-<van-button round type="primary">圆形按钮</van-button>
+<van-button square type="default" text="方形按钮"></van-button>
+<van-button type="default" round text="圆形按钮" />
+<van-button type="default" radius-size="small" text="小圆角" />
+<van-button type="default" radius-size="medium" text="中圆角" />
+<van-button type="default" radius-size="large" text="大圆角" />
 ```
 
 ### 图标按钮

@@ -29,7 +29,10 @@
   --van-button-warning-background-color: @button-warning-background-color;
   --van-button-warning-border-color: @button-warning-border-color;
   --van-button-border-width: @button-border-width;
-  --van-button-border-radius: @button-border-radius;
+  --van-button-sm-border-radius: @button-sm-border-radius;
+  --van-button-md-border-radius: @button-md-border-radius;
+  --van-button-lg-border-radius: @button-lg-border-radius;
+  --van-button-xl-border-radius: @button-xl-border-radius;
   --van-button-round-border-radius: @button-round-border-radius;
   --van-button-plain-background-color: @button-plain-background-color;
   --van-button-disabled-opacity: @button-disabled-opacity;
@@ -47,7 +50,7 @@
   font-size: var(--van-button-default-font-size);
   line-height: var(--van-button-default-line-height);
   text-align: center;
-  border-radius: var(--van-button-border-radius);
+  border-radius: var(--van-button-sm-border-radius);
   cursor: pointer;
   transition: opacity var(--van-animation-duration-fast);
   -webkit-appearance: none;
@@ -180,12 +183,27 @@
     opacity: var(--van-button-disabled-opacity);
   }
 
+  &--disabled.van-button--primary {
+    background: var(--van-bg-color);
+    color: var(--van-tip-color);
+    border-color: transparent;
+    opacity: 1;
+  }
+
   &--loading {
     cursor: default;
   }
 
   &--round {
     border-radius: var(--van-button-round-border-radius);
+  }
+
+  &--radius-medium {
+    border-radius: var(--van-button-md-border-radius);
+  }
+
+  &--radius-large {
+    border-radius: var(--van-button-lg-border-radius);
   }
 
   &--square {
@@ -224,7 +242,7 @@
 
     &::after {
       border-color: inherit;
-      border-radius: calc(var(--van-button-border-radius) * 2);
+      border-radius: calc(var(--van-button-sm-border-radius) * 2);
     }
 
     &.van-button--round::after {

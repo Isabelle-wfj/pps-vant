@@ -9,11 +9,11 @@ const t = useTranslate({
     icon: '图标按钮',
     loading: '加载状态',
     shape: '按钮形状',
-    default: '默认按钮',
-    primary: '主要按钮',
-    success: '成功按钮',
-    danger: '危险按钮',
-    warning: '警告按钮',
+    default: '默认',
+    primary: '主要',
+    success: '成功',
+    danger: '危险',
+    warning: '警告',
     large: '大号按钮',
     normal: '普通按钮',
     small: '小型按钮',
@@ -21,6 +21,9 @@ const t = useTranslate({
     plain: '朴素按钮',
     square: '方形按钮',
     round: '圆形按钮',
+    smallRadius: '小圆角',
+    mediumRadius: '中圆角',
+    largeRadius: '大圆角',
     hairline: '细边框',
     hairlineButton: '细边框按钮',
     loadingText: '加载中...',
@@ -50,6 +53,9 @@ const t = useTranslate({
     plain: 'Plain',
     square: 'Square',
     round: 'Round',
+    smallRadius: 'Small Radius',
+    mediumRadius: 'Medium Radius',
+    largeRadius: 'Large Radius',
     hairline: 'Hairline',
     hairlineButton: 'Hairline',
     loadingText: 'Loading...',
@@ -93,17 +99,25 @@ const t = useTranslate({
   <demo-block :title="t('loadingStatus')">
     <van-button loading type="primary" />
     <van-button loading type="primary" loading-type="spinner" />
+    <div class="demo-button-row"></div>
     <van-button loading :loading-text="t('loadingText')" type="success" />
   </demo-block>
 
   <demo-block :title="t('shape')">
-    <van-button type="primary" square :text="t('square')" />
-    <van-button type="success" round :text="t('round')" />
+    <div class="demo-button-row">
+      <van-button type="default" square :text="t('square')" />
+      <van-button type="default" round :text="t('round')" />
+    </div>
+    <van-button type="default" radius-size="small" :text="t('smallRadius')" />
+    <van-button type="default" radius-size="medium" :text="t('mediumRadius')" />
+    <div class="demo-button-row"></div>
+    <van-button type="default" radius-size="large" :text="t('largeRadius')" />
   </demo-block>
 
   <demo-block :title="t('icon')">
     <van-button type="primary" icon="plus" />
     <van-button type="primary" icon="plus" :text="t('button')" />
+    <div class="demo-button-row"></div>
     <van-button
       plain
       type="primary"
@@ -135,6 +149,7 @@ const t = useTranslate({
   <demo-block :title="t('customColor')">
     <van-button color="#7232dd" :text="t('pure')" />
     <van-button plain color="#7232dd" :text="t('pure')" />
+    <div class="demo-button-row"></div>
     <van-button
       color="linear-gradient(to right, #ff6034, #ee0a24)"
       :text="t('gradient')"

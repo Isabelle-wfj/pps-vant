@@ -23,6 +23,7 @@ import { Loading, LoadingType } from '../loading';
 // Types
 import {
   ButtonSize,
+  RadiusSize,
   ButtonType,
   ButtonNativeType,
   ButtonIconPosition,
@@ -41,6 +42,7 @@ const buttonProps = extend({}, routeProps, {
   plain: Boolean,
   round: Boolean,
   square: Boolean,
+  radiusSize: makeStringProp<RadiusSize>('small'),
   loading: Boolean,
   hairline: Boolean,
   disabled: Boolean,
@@ -155,6 +157,7 @@ export default defineComponent({
         loading,
         disabled,
         hairline,
+        radiusSize,
         nativeType,
         iconPosition,
       } = props;
@@ -163,6 +166,7 @@ export default defineComponent({
         bem([
           type,
           size,
+          'radius-' + radiusSize,
           {
             plain,
             block,

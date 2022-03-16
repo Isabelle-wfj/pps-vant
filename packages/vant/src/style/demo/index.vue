@@ -8,6 +8,7 @@ const t = useTranslate({
     hairline: '1px 边框',
     ellipsis: '文字省略',
     animation: '动画',
+    shadow: '投影',
     toggle: '切换动画',
     text1: '这是一段最多显示一行的文字，后面的内容会省略',
     text2:
@@ -16,6 +17,7 @@ const t = useTranslate({
   'en-US': {
     hairline: 'Hairline',
     ellipsis: 'Text Ellipsis',
+    shadow: 'shadow',
     animation: 'Animation',
     toggle: 'Switch animation',
     text1:
@@ -56,6 +58,12 @@ const animate = (newName: string) => {
     <van-cell is-link title="Slide Right" @click="animate('van-slide-right')" />
   </demo-block>
 
+  <demo-block card :title="t('shadow')" class="shadow">
+    <div class="pps-shadow-lightly div-shadow">lightly</div>
+    <div class="pps-shadow-light div-shadow">light</div>
+    <div class="pps-shadow-heavy div-shadow">heavy</div>
+  </demo-block>
+
   <transition :name="transitionName">
     <div v-show="show" class="demo-animate-block" />
   </transition>
@@ -69,6 +77,24 @@ const animate = (newName: string) => {
     margin-left: var(--van-padding-md);
     font-size: 14px;
     line-height: 18px;
+  }
+  .shadow {
+    .van-doc-demo-block__card {
+      display: flex;
+      padding: 30px 24px;
+      background: #fff;
+      font-size: 12px;
+    }
+    .div-shadow {
+      width: 96px;
+      height: 50px;
+      border-radius: 2px;
+      text-align: center;
+      line-height: 50px;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
   }
 
   .van-ellipsis {

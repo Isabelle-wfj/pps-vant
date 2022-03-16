@@ -71,7 +71,7 @@ const onClickButton = () => Toast(value6.value);
       v-model="value2"
       :placeholder="t('placeholder')"
       shape="round"
-      background="#4fc08d"
+      background="#0066FF"
     />
   </demo-block>
 

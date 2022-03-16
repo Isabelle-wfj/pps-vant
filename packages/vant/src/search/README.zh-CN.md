@@ -101,7 +101,7 @@ export default {
 <van-search
   v-model="value"
   shape="round"
-  background="#4fc08d"
+  background="#0066FF"
   placeholder="请输入搜索关键词"
 />
 ```

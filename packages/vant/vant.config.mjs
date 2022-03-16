@@ -28,10 +28,10 @@ export default {
     },
     locales: {
       'zh-CN': {
-        title: 'Vant 3',
+        title: 'pps-vant',
         subtitle: '（适用于 Vue 3）',
         description: '轻量、可靠的移动端组件库',
-        logo: 'https://img.yzcdn.cn/vant/logo.png',
+        logo: 'https://cdn.ipampas.com/common/images/icon.png',
         langLabel: '中',
         links: [
           {
@@ -63,51 +63,51 @@ export default {
           },
         },
         nav: [
-          {
-            title: '开发指南',
-            items: [
-              {
-                path: 'home',
-                title: '介绍',
-              },
-              {
-                path: 'quickstart',
-                title: '快速上手',
-              },
-              {
-                path: 'advanced-usage',
-                title: '进阶用法',
-              },
-              {
-                path: 'faq',
-                title: '常见问题',
-              },
-              {
-                path: 'changelog',
-                title: '更新日志',
-              },
-              {
-                path: 'migrate-from-v2',
-                title: '从 v2 升级',
-              },
-              {
-                path: 'contribution',
-                title: '贡献指南',
-              },
-              {
-                path: 'design',
-                title: '设计资源',
-              },
-              {
-                path: 'style-guide',
-                title: '风格指南',
-              },
-              {
-                path: 'locale',
-                title: '国际化',
-              },
-            ],
-          },
+          // {
+          //   title: '开发指南',
+          //   items: [
+          //     {
+          //       path: 'home',
+          //       title: '介绍',
+          //     },
+          //     {
+          //       path: 'quickstart',
+          //       title: '快速上手',
+          //     },
+          //     {
+          //       path: 'advanced-usage',
+          //       title: '进阶用法',
+          //     },
+          //     {
+          //       path: 'faq',
+          //       title: '常见问题',
+          //     },
+          //     {
+          //       path: 'changelog',
+          //       title: '更新日志',
+          //     },
+          //     {
+          //       path: 'migrate-from-v2',
+          //       title: '从 v2 升级',
+          //     },
+          //     {
+          //       path: 'contribution',
+          //       title: '贡献指南',
+          //     },
+          //     {
+          //       path: 'design',
+          //       title: '设计资源',
+          //     },
+          //     {
+          //       path: 'style-guide',
+          //       title: '风格指南',
+          //     },
+          //     {
+          //       path: 'locale',
+          //       title: '国际化',
+          //     },
+          //   ],
+          // },
           {
             title: '基础组件',
             items: [
@@ -475,10 +475,10 @@ export default {
         ],
       },
       'en-US': {
-        title: 'Vant 3',
+        title: 'pps-vant',
         subtitle: ' (for Vue 3)',
         description: 'Mobile UI Components built on Vue',
-        logo: 'https://img.yzcdn.cn/vant/logo.png',
+        logo: 'https://cdn.ipampas.com/common/images/icon.png',
         langLabel: 'EN',
         links: [
           {

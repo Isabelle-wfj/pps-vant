@@ -9,10 +9,10 @@
 <p align="center">
     <img src="https://img.shields.io/npm/v/vant?style=flat-square" alt="npm version" />
     <img src="https://img.shields.io/github/workflow/status/youzan/vant/CI/dev?style=flat-square" alt="CI Status" />
-    <img src="https://img.shields.io/codecov/c/github/youzan/vant/dev.svg?style=flat-square&color=#4fc08d" alt="Coverage Status" />
-    <img src="https://img.shields.io/npm/dm/vant.svg?style=flat-square&color=#4fc08d" alt="downloads" />
+    <img src="https://img.shields.io/codecov/c/github/youzan/vant/dev.svg?style=flat-square&color=#0066FF" alt="Coverage Status" />
+    <img src="https://img.shields.io/npm/dm/vant.svg?style=flat-square&color=#0066FF" alt="downloads" />
     <img src="https://img.shields.io/jsdelivr/npm/hm/vant?style=flat-square" alt="Jsdelivr Hits">
-    <img src="https://img.badgesize.io/https://unpkg.com/vant@3/lib/vant.min.js?compression=gzip&style=flat-square&label=gzip%20size&color=#4fc08d" alt="Gzip Size" />
+    <img src="https://img.badgesize.io/https://unpkg.com/vant@3/lib/vant.min.js?compression=gzip&style=flat-square&label=gzip%20size&color=#0066FF" alt="Gzip Size" />
 </p>
 
 <p align="center">

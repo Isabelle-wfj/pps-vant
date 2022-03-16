@@ -89,3 +89,14 @@ Vant 中默认包含了一些常用样式，可以直接通过 className 的方�
   <div v-show="visible">Slide Right</div>
 </transition>
 ```
+
+### 投影
+
+```html
+<!-- 超轻型投影 -->
+<div class="pps-shadow-lightly">shadow lightly</div>
+<!-- 轻型投影 -->
+<div class="pps-shadow-light">shadow light</div>
+<!-- 偏重投影 -->
+<div class="pps-shadow-heavy">shadow heavy</div>
+```

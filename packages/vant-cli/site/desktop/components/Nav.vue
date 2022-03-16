@@ -134,7 +134,7 @@ export default {
 
       &.active {
         font-weight: 600;
-        background-color: #ebfff0;
+        background-color: #deebff;
         border-radius: 999px;
       }
 

@@ -8,6 +8,7 @@ export type ButtonType =
   | 'danger';
 
 export type ButtonSize = 'large' | 'normal' | 'small' | 'mini';
+export type RadiusSize = 'large' | 'medium' | 'small';
 
 export type ButtonNativeType = NonNullable<ButtonHTMLAttributes['type']>;
 

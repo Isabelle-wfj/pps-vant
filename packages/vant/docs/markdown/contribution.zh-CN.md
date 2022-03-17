@@ -55,7 +55,7 @@ root
 └─ packages
    ├─ vant        # 组件库
    ├─ vant-cli    # 脚手架
-   ├─ vant-icons  # 图标库
+   ├─ pps-icons  # 图标库
    ├─ vant-use    # Composition API
    └─ ....        # 其他周边 npm 包
 ```

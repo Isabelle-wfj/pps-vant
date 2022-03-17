@@ -224,10 +224,10 @@ The component provides the following CSS variables, which can be used to customi
 | --van-number-keyboard-background-color | _var(--van-gray-2)_ | - |
 | --van-number-keyboard-key-height | _48px_ | - |
 | --van-number-keyboard-key-font-size | _28px_ | - |
-| --van-number-keyboard-key-active-color | _var(--van-line-color)_ | - |
+| --van-number-keyboard-key-active-color | _var(--van-gray-4)_ | - |
 | --van-number-keyboard-key-background-color | _var(--van-white)_ | - |
 | --van-number-keyboard-delete-font-size | _var(--van-font-size-lg)_ | - |
-| --van-number-keyboard-title-color | _var(--van-sec-color)_ | - |
+| --van-number-keyboard-title-color | _var(--van-gray-7)_ | - |
 | --van-number-keyboard-title-height | _34px_ | - |
 | --van-number-keyboard-title-font-size | _var(--van-font-size-lg)_ | - |
 | --van-number-keyboard-close-padding | _0 var(--van-padding-md)_ | - |

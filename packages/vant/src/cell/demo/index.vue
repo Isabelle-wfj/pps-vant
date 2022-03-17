@@ -55,11 +55,11 @@ const t = useTranslate({
   </demo-block>
 
   <demo-block :title="t('largeSize')">
-    <van-cell :title="t('cell')" :value="t('content')" size="large" />
+    <van-cell :title="t('cell')" :value="t('content')" size="normal" />
     <van-cell
       :title="t('cell')"
       :value="t('content')"
-      size="large"
+      size="normal"
       :label="t('desc')"
     />
   </demo-block>

@@ -349,7 +349,7 @@ tabsRef.value?.scrollTo(0);
 
 | 名称                            | 默认值                              | 描述 |
 | ------------------------------- | ----------------------------------- | ---- |
-| --van-tab-text-color            | _var(--van-sec-color)_              | -    |
+| --van-tab-text-color            | _var(--van-gray-7)_                 | -    |
 | --van-tab-active-text-color     | _var(--van-text-color)_             | -    |
 | --van-tab-disabled-text-color   | _var(--van-text-color-3)_           | -    |
 | --van-tab-font-size             | _var(--van-font-size-md)_           | -    |

@@ -13,6 +13,7 @@ import {
   unknownProp,
   numericProp,
   createNamespace,
+  makeStringProp,
 } from '../utils';
 
 // Composables
@@ -29,7 +30,7 @@ export type CellArrowDirection = 'up' | 'down' | 'left' | 'right';
 
 export const cellSharedProps = {
   icon: String,
-  size: String as PropType<CellSize>,
+  size: makeStringProp<CellSize>('large'),
   title: numericProp,
   value: numericProp,
   label: numericProp,

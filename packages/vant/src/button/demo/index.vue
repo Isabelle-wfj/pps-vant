@@ -9,11 +9,11 @@ const t = useTranslate({
     icon: '图标按钮',
     loading: '加载状态',
     shape: '按钮形状',
-    default: '默认',
-    primary: '主要',
-    success: '成功',
-    danger: '危险',
-    warning: '警告',
+    default: '默认按钮',
+    primary: '主要按钮',
+    success: '成功按钮',
+    danger: '危险按钮',
+    warning: '警告按钮',
     large: '大号按钮',
     normal: '普通按钮',
     small: '小型按钮',
@@ -21,9 +21,9 @@ const t = useTranslate({
     plain: '朴素按钮',
     square: '方形按钮',
     round: '圆形按钮',
-    smallRadius: '小圆角',
-    mediumRadius: '中圆角',
-    largeRadius: '大圆角',
+    smallRadius: '小圆角按钮',
+    mediumRadius: '中圆角按钮',
+    largeRadius: '大圆角按钮',
     hairline: '细边框',
     hairlineButton: '细边框按钮',
     loadingText: '加载中...',
@@ -72,12 +72,12 @@ const t = useTranslate({
 
 <template>
   <demo-block :title="t('type')">
-    <div class="demo-button-row">
-      <van-button type="primary">{{ t('primary') }}</van-button>
-      <van-button type="success">{{ t('success') }}</van-button>
-      <van-button type="default">{{ t('default') }}</van-button>
-    </div>
+    <van-button type="primary">{{ t('primary') }}</van-button>
+    <van-button type="success">{{ t('success') }}</van-button>
+    <div class="demo-button-row"></div>
+    <van-button type="default">{{ t('default') }}</van-button>
     <van-button type="danger">{{ t('danger') }}</van-button>
+    <div class="demo-button-row"></div>
     <van-button type="warning">{{ t('warning') }}</van-button>
   </demo-block>
 

@@ -233,7 +233,7 @@ import type { TabbarProps, TabbarItemProps } from 'vant';
 | --van-tabbar-z-index | _1_ | - |
 | --van-tabbar-background-color | _var(--van-background-color-light)_ | - |
 | --van-tabbar-item-font-size | _var(--van-font-size-sm)_ | - |
-| --van-tabbar-item-text-color | _var(--van-sec-color)_ | - |
+| --van-tabbar-item-text-color | _var(--van-gray-7)_ | - |
 | --van-tabbar-item-active-color | _var(--van-primary-color)_ | - |
 | --van-tabbar-item-active-background-color | _var(--van-background-color-light)_ | - |
 | --van-tabbar-item-line-height | _1_ | - |

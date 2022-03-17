@@ -53,7 +53,7 @@ app.use(SwipeCell);
 <style>
   .goods-card {
     margin: 0;
-    background-color: @white;
+    background-color: @gray-1;
   }
 
   .delete-button {

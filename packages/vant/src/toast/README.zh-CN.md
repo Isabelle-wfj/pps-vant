@@ -212,7 +212,7 @@ import type { ToastType, ToastProps, ToastOptions, ToastPosition } from 'vant';
 | --van-toast-loading-icon-color | _var(--van-white)_ | - |
 | --van-toast-line-height | _var(--van-line-height-md)_ | - |
 | --van-toast-border-radius | _var(--van-border-radius-lg)_ | - |
-| --van-toast-background-color | _fade(var(--van-black), 70%)_ | - |
+| --van-toast-background-color | _fade(var(--van-gray-10), 70%)_ | - |
 | --van-toast-icon-size | _36px_ | - |
 | --van-toast-text-min-width | _96px_ | - |
 | --van-toast-text-padding | _var(--van-padding-xs) var(--van-padding-sm)_ | - |

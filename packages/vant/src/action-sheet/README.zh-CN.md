@@ -270,7 +270,7 @@ import type { ActionSheetProps, ActionSheetAction } from 'vant';
 | --van-action-sheet-close-icon-size | _22px_ | - |
 | --van-action-sheet-close-icon-color | _var(--van-disabled-color)_ | - |
 | --van-action-sheet-close-icon-padding | _0 var(--van-padding-md)_ | - |
-| --van-action-sheet-cancel-text-color | _var(--van-sec-color)_ | - |
+| --van-action-sheet-cancel-text-color | _var(--van-gray-7)_ | - |
 | --van-action-sheet-cancel-padding-top | _var(--van-padding-xs)_ | - |
 | --van-action-sheet-cancel-padding-color | _var(--van-background-color)_ | - |
 | --van-action-sheet-loading-icon-size | _22px_ | - |

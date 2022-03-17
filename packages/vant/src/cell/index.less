@@ -21,6 +21,7 @@
   --van-cell-large-vertical-padding: @cell-large-vertical-padding;
   --van-cell-large-title-font-size: @cell-large-title-font-size;
   --van-cell-large-label-font-size: @cell-large-label-font-size;
+  --van-cell-large-value-font-size: @cell-large-value-font-size;
 }
 
 .van-cell {
@@ -36,7 +37,7 @@
   background: var(--van-cell-background-color);
 
   &::after {
-    .hairline-bottom(var(--van-cell-border-color), var(--van-padding-md), var(--van-padding-md));
+    .hairline-bottom(var(--van-cell-border-color), var(--van-padding-lg), var(--van-padding-lg));
   }
 
   &:last-child::after,
@@ -120,6 +121,10 @@
 
     .van-cell__label {
       font-size: var(--van-cell-large-label-font-size);
+    }
+
+    .van-cell__value {
+      font-size: var(--van-cell-large-value-font-size);
     }
   }
 }

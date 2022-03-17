@@ -131,7 +131,7 @@ The component provides the following CSS variables, which can be used to customi
 | --van-card-thumb-size | _88px_ | - |
 | --van-card-thumb-border-radius | _var(--van-border-radius-lg)_ | - |
 | --van-card-title-line-height | _16px_ | - |
-| --van-card-desc-color | _var(--van-sec-color)_ | - |
+| --van-card-desc-color | _var(--van-gray-7)_ | - |
 | --van-card-desc-line-height | _var(--van-line-height-md)_ | - |
 | --van-card-price-color | _var(--van-gray-8)_ | - |
 | --van-card-origin-price-color | _var(--van-text-color-2)_ | - |

@@ -126,6 +126,6 @@ The component provides the following CSS variables, which can be used to customi
 | --van-step-finish-text-color | _var(--van-text-color)_ | - |
 | --van-step-icon-size | _12px_ | - |
 | --van-step-circle-size | _5px_ | - |
-| --van-step-circle-color | _var(--van-desc-color)_ | - |
+| --van-step-circle-color | _var(--van-gray-6)_ | - |
 | --van-step-horizontal-title-font-size | _var(--van-font-size-sm)_ | - |
 | --van-steps-background-color | _var(--van-background-color-light)_ | - |

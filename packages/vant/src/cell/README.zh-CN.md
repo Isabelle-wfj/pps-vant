@@ -46,8 +46,8 @@ app.use(CellGroup);
 通过 `size` 属性可以控制单元格的大小。
 
 ```html
-<van-cell title="单元格" value="内容" size="large" />
-<van-cell title="单元格" value="内容" size="large" label="描述信息" />
+<van-cell title="单元格" value="内容" size="normal" />
+<van-cell title="单元格" value="内容" size="normal" label="描述信息" />
 ```
 
 ### 展示图标
@@ -233,7 +233,7 @@ import type {
 | --van-cell-label-margin-top | _var(--van-padding-base)_ | - |
 | --van-cell-value-color | _var(--van-text-color-2)_ | - |
 | --van-cell-icon-size | _16px_ | - |
-| --van-cell-right-icon-color | _var(--van-desc-color)_ | - |
+| --van-cell-right-icon-color | _var(--van-gray-6)_ | - |
 | --van-cell-large-vertical-padding | _var(--van-padding-sm)_ | - |
 | --van-cell-large-title-font-size | _var(--van-font-size-lg)_ | - |
 | --van-cell-large-label-font-size | _var(--van-font-size-md)_ | - |

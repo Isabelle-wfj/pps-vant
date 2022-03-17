@@ -129,15 +129,15 @@ There are all **Basic Variables** below, for component CSS Variables, please ref
 
 ```less
 // Color Palette
---van-black: #000;
+--van-gray-10: #000;
 --van-white: #fff;
 --van-bg-color: #f7f8fa;
 --van-gray-2: #f2f3f5;
---van-line-color: #ebedf0;
+--van-gray-4: #ebedf0;
 --van-tip-color: #dcdee0;
 --van-disabled-color: #c8c9cc;
---van-desc-color: #969799;
---van-sec-color: #646566;
+--van-gray-6: #969799;
+--van-gray-7: #646566;
 --van-gray-8: #323233;
 --van-red: #ee0a24;
 --van-blue: #1989fa;
@@ -156,7 +156,7 @@ There are all **Basic Variables** below, for component CSS Variables, please ref
 --van-danger-color: var(--van-red);
 --van-warning-color: var(--van-orange);
 --van-text-color: var(--van-gray-8);
---van-text-color-2: var(--van-desc-color);
+--van-text-color-2: var(--van-gray-6);
 --van-text-color-3: var(--van-disabled-color);
 --van-text-link-color: #576b95;
 --van-active-color: var(--van-gray-2);
@@ -196,7 +196,7 @@ There are all **Basic Variables** below, for component CSS Variables, please ref
 --van-animation-timing-function-leave: ease-in;
 
 // Border
---van-border-color: var(--van-line-color);
+--van-border-color: var(--van-gray-4);
 --van-border-width-base: 1px;
 --van-border-radius-sm: 2px;
 --van-border-radius-md: 4px;

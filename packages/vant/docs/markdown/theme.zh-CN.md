@@ -20,16 +20,16 @@ Vant 使用了 [Less](http://lesscss.org/) 对样式进行预处理，并内置�
 
 ```less
 // Color Palette
-@black: #000;
-@white: #fff;
-@bg-color: #f7f8fa;
+@gray-10: #000;
+@gray-1: #fff;
+@gray-3: #f7f8fa;
 @gray-2: #f2f3f5;
-@line-color: #ebedf0;
-@tip-color: #dcdee0;
+@gray-4: #ebedf0;
+@gray-5: #dcdee0;
 @disabled-color: #c8c9cc;
-@desc-color: #969799;
-@sec-color: #646566;
-@gray-8: #323233;
+@gray-6: #969799;
+@gray-7: #646566;
+@gray-9: #323233;
 @red: #ee0a24;
 @blue: #1989fa;
 @orange: #ff976a;
@@ -42,12 +42,12 @@ Vant 使用了 [Less](http://lesscss.org/) 对样式进行预处理，并内置�
 @gradient-orange: linear-gradient(to right, #ffd01e, #ff8917);
 
 // Component Colors
-@text-color: @gray-8;
+@text-color: @gray-9;
 @active-color: @gray-2;
 @active-opacity: 0.7;
 @disabled-opacity: 0.5;
-@background-color: @bg-color;
-@background-color-light: @white;
+@background-color: @gray-3;
+@background-color-light: @gray-1;
 @text-link-color: #576b95;
 
 // Padding
@@ -81,7 +81,7 @@ Vant 使用了 [Less](http://lesscss.org/) 对样式进行预处理，并内置�
 @animation-timing-function-leave: ease-in;
 
 // Border
-@border-color: @line-color;
+@border-color: @gray-4;
 @border-width-base: 1px;
 @border-radius-sm: 2px;
 @border-radius-md: 4px;

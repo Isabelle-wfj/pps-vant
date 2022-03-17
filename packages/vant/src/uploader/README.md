@@ -401,11 +401,11 @@ The component provides the following CSS variables, which can be used to customi
 | --van-uploader-delete-background-color | _rgba(0, 0, 0, 0.7)_ | - |
 | --van-uploader-file-background-color | _var(--van-background-color)_ | - |
 | --van-uploader-file-icon-size | _20px_ | - |
-| --van-uploader-file-icon-color | _var(--van-sec-color)_ | - |
+| --van-uploader-file-icon-color | _var(--van-gray-7)_ | - |
 | --van-uploader-file-name-padding | _0 var(--van-padding-base)_ | - |
 | --van-uploader-file-name-margin-top | _var(--van-padding-xs)_ | - |
 | --van-uploader-file-name-font-size | _var(--van-font-size-sm)_ | - |
-| --van-uploader-file-name-text-color | _var(--van-sec-color)_ | - |
+| --van-uploader-file-name-text-color | _var(--van-gray-7)_ | - |
 | --van-uploader-mask-text-color | _var(--van-white)_ | - |
 | --van-uploader-mask-background-color | _fade(var(--van-gray-8), 88%)_ | - |
 | --van-uploader-mask-icon-size | _22px_ | - |

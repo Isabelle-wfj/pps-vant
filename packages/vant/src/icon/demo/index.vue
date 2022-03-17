@@ -44,6 +44,7 @@ const t = useTranslate({
     copied: '复制成功',
     outline: '线框风格',
     filled: '实底风格',
+    other: '业务图标',
     demo: '用法示例',
     color: '图标颜色',
     size: '图标大小',
@@ -182,6 +183,11 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
           <span>{{ icon }}</span>
         </van-col>
       </van-row>
+    </van-tab>
+    <van-tab class="demo-icon-tab-panel" :title="t('other')">
+      <div style="font-size: 14px; padding: 24px 16px">
+        前往阿里图标库【业务图标】类目下观看
+      </div>
     </van-tab>
   </van-tabs>
 </template>

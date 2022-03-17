@@ -30,7 +30,7 @@ Contains icon library resources.
 
 <img src="https://img.yzcdn.cn/vant/design-icons-0321.png" style="width: 80%; box-shadow: 0 1px 2px rgba(0,0,0,.2)">
 
-<a class="design-download" href="https://github.com/youzan/vant/blob/dev/packages/vant-icons/assets/icons.sketch?raw=true">Download</a>
+<a class="design-download" href="https://github.com/youzan/vant/blob/dev/packages/pps-icons/assets/icons.sketch?raw=true">Download</a>
 
 ### Axure
 

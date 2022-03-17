@@ -1,14 +1,16 @@
 // Color Palette
-@black: #141414;
-@white: #fff;
-@bg-color: #f5f5f5;
-@gray-2: #f2f3f5;
-@line-color: #e0e0e0;
-@tip-color: #bebebe;
-@disabled-color: rgba(20, 20, 20, 0.3);
-@desc-color: #999999;
-@sec-color: #666666; // 次要文案
-@gray-8: #141414;
+// 中性色
+@gray-1: #fff;
+@gray-2: #f8f8f8;
+@gray-3: #f5f5f5;
+@gray-4: #e0e0e0;
+@gray-5: #bebebe;
+@gray-6: #999999;
+@gray-7: #666666;
+@gray-8: #333;
+@gray-9: #141414;
+@gray-10: #000;
+// 功能色
 @red: #ff603f;
 @blue: #0066ff;
 @orange: #fd9d00;
@@ -16,6 +18,8 @@
 @orange-light: #fffbe8;
 @green: #34a876;
 @text-link-color: #586a95;
+@disabled-color: rgba(20, 20, 20, 0.3);
+
 // @overlay-background-color: rgba(0, 0, 0, 0.8); 在组件overlay已有定义
 
 // Gradient Colors
@@ -28,14 +32,14 @@
 @shadow-heavy: 0px 10px 28px 0px rgba(0, 0, 0, 0.12);
 
 // Component Colors
-@primary-color: var(--van-black);
+@primary-color: var(--van-gray-10);
 @success-color: var(--van-green);
 @danger-color: var(--van-red);
 @warning-color: var(--van-orange);
 @text-color: var(--van-gray-8);
-@text-color-2: var(--van-desc-color);
+@text-color-2: var(--van-gray-6);
 @text-color-3: var(--van-disabled-color);
-@text-color-4: var(--van-sec-color);
+@text-color-4: var(--van-gray-7);
 @active-color: var(--van-gray-2);
 @active-opacity: 0.6;
 @disabled-opacity: 0.3;
@@ -45,6 +49,7 @@
 
 // Padding
 @padding-base: 4px;
+@padding-mini: @padding-base / 2;
 @padding-xs: @padding-base * 2;
 @padding-sm: @padding-base * 3;
 @padding-md: @padding-base * 4;
@@ -54,8 +59,8 @@
 // Font
 @font-size-xs: 10px;
 @font-size-sm: 12px;
-@font-size-md: 16px;
-@font-size-lg: 18px;
+@font-size-md: 14px;
+@font-size-lg: 16px;
 @font-weight-bold: 500;
 @line-height-xs: 14px;
 @line-height-sm: 18px;
@@ -74,7 +79,7 @@
 @animation-timing-function-leave: ease-in;
 
 // Border
-@border-color: var(--van-line-color);
+@border-color: var(--van-gray-4);
 @border-width-base: 1px;
 @border-radius-sm: 2px;
 @border-radius-md: 4px;

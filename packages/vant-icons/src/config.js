@@ -1,5 +1,5 @@
 export default {
-  name: 'vant-icon',
+  name: 'pps-icon',
   basic: [
     'arrow',
     'arrow-left',

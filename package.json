@@ -7,7 +7,8 @@
     "test": "pnpm test --dir ./packages/vant",
     "test:watch": "pnpm test:watch --dir ./packages/vant",
     "build": "pnpm build --dir ./packages/vant",
-    "build:site": "pnpm build:site --dir ./packages/vant"
+    "build:site": "pnpm build:site --dir ./packages/vant",
+    "clear": "rm -rf node_modules packages/**/node_modules  packages/**/package-lock.json"
   },
   "lint-staged": {
     "*.md": "prettier --write",

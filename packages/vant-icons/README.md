@@ -4,13 +4,13 @@
 
 ```shell
 # with npm
-npm i @vant/icons
+npm i @pps/icons
 
 # with yarn
-yarn add @vant/icons
+yarn add @pps/icons
 
 # with pnpm
-pnpm add @vant/icons
+pnpm add @pps/icons
 ```
 
 ## Document

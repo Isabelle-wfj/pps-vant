@@ -4,7 +4,7 @@ import VanTabs from '../../tabs';
 import VanTab from '../../tab';
 import VanRow from '../../row';
 import VanCol from '../../col';
-import icons from '@vant/icons';
+import icons from '@pps/icons';
 import { ref } from 'vue';
 import { useTranslate } from '../../../docs/site/use-translate';
 import { Notify } from '../../notify';

@@ -1,7 +1,7 @@
 {
-  "name": "@vant/icons",
-  "version": "1.7.3",
-  "description": "vant icons",
+  "name": "@pps/icons",
+  "version": "1.0.0",
+  "description": "pps icons",
   "main": "./src/config.js",
   "types": "./src/config.d.ts",
   "files": [
@@ -11,16 +11,13 @@
     "release": "release-it"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "http://repo.ipampas.net/repository/npm-private/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/youzan/vant.git",
+    "url": "https://github.com/Isabelle-wfj/pps-vant.git",
     "directory": "packages/pps-icons"
   },
-  "bugs": "https://github.com/youzan/vant/issues",
-  "author": "chenjiahan",
   "license": "MIT",
   "devDependencies": {
     "release-it": "^14.11.6"
@@ -28,7 +25,7 @@
   "release-it": {
     "git": {
       "tag": false,
-      "commitMessage": "release: @vant/icons ${version}",
+      "commitMessage": "release: @pps/icons ${version}",
       "addUntrackedFiles": true,
       "requireCleanWorkingDir": false
     }

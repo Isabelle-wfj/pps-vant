@@ -23,7 +23,7 @@ There are some [basic variables](<(https://github.com/youzan/vant/blob/dev/packa
 @disabled-color: #c8c9cc;
 @gray-6: #969799;
 @gray-7: #646566;
-@gray-9: #323233;
+@gray-9: #141414;
 @red: #ee0a24;
 @blue: #1989fa;
 @orange: #ff976a;

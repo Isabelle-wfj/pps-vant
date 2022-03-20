@@ -232,7 +232,7 @@ import type { NumberKeyboardProps, NumberKeyboardTheme } from 'vant';
 | --van-number-keyboard-key-height | _48px_ | - |
 | --van-number-keyboard-key-font-size | _28px_ | - |
 | --van-number-keyboard-key-active-color | _var(--van-gray-4)_ | - |
-| --van-number-keyboard-key-background-color | _var(--van-white)_ | - |
+| --van-number-keyboard-key-background-color | _var(--van-gray-1)_ | - |
 | --van-number-keyboard-delete-font-size | _var(--van-font-size-lg)_ | - |
 | --van-number-keyboard-title-color | _var(--van-gray-7)_ | - |
 | --van-number-keyboard-title-height | _34px_ | - |
@@ -240,7 +240,7 @@ import type { NumberKeyboardProps, NumberKeyboardTheme } from 'vant';
 | --van-number-keyboard-close-padding | _0 var(--van-padding-md)_ | - |
 | --van-number-keyboard-close-color | _var(--van-text-link-color)_ | - |
 | --van-number-keyboard-close-font-size | _var(--van-font-size-md)_ | - |
-| --van-number-keyboard-button-text-color | _var(--van-white)_ | - |
+| --van-number-keyboard-button-text-color | _var(--van-gray-1)_ | - |
 | --van-number-keyboard-button-background-color | _var(--van-primary-color)_ | - |
 | --van-number-keyboard-z-index | _100_ | - |
 

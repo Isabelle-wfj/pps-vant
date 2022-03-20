@@ -28,6 +28,7 @@ import { popupSharedProps, popupSharedPropKeys } from '../popup/shared';
 
 // Components
 import { Popup } from '../popup';
+import { Icon } from '../icon';
 import { Button } from '../button';
 import { ActionBar } from '../action-bar';
 import { ActionBarButton } from '../action-bar-button';
@@ -44,6 +45,8 @@ const [name, bem, t] = createNamespace('dialog');
 
 const dialogProps = extend({}, popupSharedProps, {
   title: String,
+  icon: String,
+  svg: Boolean,
   theme: String as PropType<DialogTheme>,
   width: numericProp,
   message: [String, Function] as PropType<DialogMessage>,
@@ -137,6 +140,7 @@ export default defineComponent({
     );
 
     const renderTitle = () => {
+      const { icon, svg } = props;
       const title = slots.title ? slots.title() : props.title;
       if (title) {
         return (
@@ -149,12 +153,23 @@ export default defineComponent({
           </div>
         );
       }
+      if (icon && svg) {
+        return (
+          <svg class="color-icon" width="48px" height="48px">
+            <use xlinkHref={'#' + icon} width="48px" height="48px" />
+          </svg>
+        );
+      }
+      if (icon) {
+        return <Icon name={icon}></Icon>;
+      }
     };
 
-    const renderMessage = (hasTitle: boolean) => {
+    const renderMessage = (hasTitle: boolean, hasIcon: boolean) => {
       const { message, allowHtml, messageAlign } = props;
       const classNames = bem('message', {
         'has-title': hasTitle,
+        'has-icon': hasIcon,
         [messageAlign as string]: messageAlign,
       });
 
@@ -172,9 +187,10 @@ export default defineComponent({
         return <div class={bem('content')}>{slots.default()}</div>;
       }
 
-      const { title, message, allowHtml } = props;
+      const { title, message, allowHtml, icon } = props;
       if (message) {
         const hasTitle = !!(title || slots.title);
+        const hasIcon = !!(icon || slots.icon);
         return (
           <div
             // add key to force re-render
@@ -182,7 +198,7 @@ export default defineComponent({
             key={allowHtml ? 1 : 0}
             class={bem('content', { isolated: !hasTitle })}
           >
-            {renderMessage(hasTitle)}
+            {renderMessage(hasTitle, hasIcon)}
           </div>
         );
       }

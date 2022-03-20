@@ -193,7 +193,7 @@ import type {
 
 | 名称 | 默认值 | 描述 |
 | --- | --- | --- |
-| --van-notify-text-color | _var(--van-white)_ | - |
+| --van-notify-text-color | _var(--van-gray-1)_ | - |
 | --van-notify-padding | _var(--van-padding-xs) var(--van-padding-md)_ | - |
 | --van-notify-font-size | _var(--van-font-size-md)_ | - |
 | --van-notify-line-height | _var(--van-line-height-md)_ | - |

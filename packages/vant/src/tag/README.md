@@ -133,7 +133,7 @@ The component provides the following CSS variables, which can be used to customi
 | Name | Default Value | Description |
 | --- | --- | --- |
 | --van-tag-padding | _0 var(--van-padding-base)_ | - |
-| --van-tag-text-color | _var(--van-white)_ | - |
+| --van-tag-text-color | _var(--van-gray-1)_ | - |
 | --van-tag-font-size | _var(--van-font-size-sm)_ | - |
 | --van-tag-border-radius | _2px_ | - |
 | --van-tag-line-height | _16px_ | - |

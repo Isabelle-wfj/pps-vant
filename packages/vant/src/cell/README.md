@@ -122,7 +122,7 @@ app.use(CellGroup);
   }
 
   .search-icon {
-    font-size: 16px;
+    font-size: 22px;
     line-height: inherit;
   }
 </style>

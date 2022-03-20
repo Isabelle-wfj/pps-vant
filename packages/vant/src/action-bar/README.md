@@ -97,7 +97,7 @@ Use `badge` prop to show badge in icon.
 | --- | --- | --- | --- |
 | text | Button text | _string_ | - |
 | icon | Icon | _string_ | - |
-| color | Icon color | _string_ | `#323233` |
+| color | Icon color | _string_ | `#141414` |
 | icon-class | Icon class name | _string \| Array \| object_ | `''` |
 | icon-prefix `v3.0.17` | Icon className prefix | _string_ | `van-icon` |
 | dot | Whether to show red dot | _boolean_ | - |

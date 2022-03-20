@@ -82,7 +82,7 @@ const t = useTranslate({
 
   .van-col {
     margin-bottom: 10px;
-    color: var(--van-white);
+    color: var(--van-gray-1);
     font-size: 13px;
     line-height: 30px;
     text-align: center;

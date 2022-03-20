@@ -100,3 +100,19 @@ Vant 中默认包含了一些常用样式，可以直接通过 className 的方�
 <!-- 偏重投影 -->
 <div class="pps-shadow-heavy">shadow heavy</div>
 ```
+
+### 色彩
+
+```html
+<van-row justify="center" gutter="20">
+  <van-col class="pps-theme">主题</van-col>
+  <van-col class="pps-success">成功</van-col>
+  <van-col class="pps-fail">失败</van-col>
+  <van-col class="pps-warning">警告</van-col>
+  <van-col class="pps-link">链接</van-col>
+  <van-col>默认</van-col>
+  <van-col class="pps-desc-1">描述性</van-col>
+  <van-col class="pps-desc">辅助性</van-col>
+  <van-col class="pps-tip">提示</van-col>
+</van-row>
+```

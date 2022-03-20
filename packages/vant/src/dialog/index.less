@@ -17,9 +17,11 @@
   --van-dialog-message-max-height: @dialog-message-max-height;
   --van-dialog-has-title-message-text-color: @dialog-has-title-message-text-color;
   --van-dialog-has-title-message-padding-top: @dialog-has-title-message-padding-top;
+  --van-dialog-has-icon-message-padding-top: @dialog-has-icon-message-padding-top;
   --van-dialog-button-height: @dialog-button-height;
   --van-dialog-round-button-height: @dialog-round-button-height;
   --van-dialog-confirm-button-text-color: @dialog-confirm-button-text-color;
+  --van-dialog-cancel-button-text-color: @dialog-cancel-button-text-color;
 }
 
 .van-dialog {
@@ -60,7 +62,7 @@
   &__message {
     flex: 1;
     max-height: var(--van-dialog-message-max-height);
-    padding: 26px var(--van-dialog-message-padding);
+    padding: 32px var(--van-dialog-message-padding);
     overflow-y: auto;
     font-size: var(--van-dialog-message-font-size);
     line-height: var(--van-dialog-message-line-height);
@@ -89,6 +91,7 @@
     display: flex;
     overflow: hidden;
     user-select: none;
+    font-weight: 500;
   }
 
   &__confirm,
@@ -97,6 +100,7 @@
     height: var(--van-dialog-button-height);
     margin: 0;
     border: 0;
+    color: var(--van-dialog-cancel-button-text-color);
   }
 
   &__confirm {
@@ -121,10 +125,11 @@
     .van-dialog__confirm,
     .van-dialog__cancel {
       height: var(--van-dialog-round-button-height);
+      color: var(--van-dialog-cancel-button-text-color);
     }
 
     .van-dialog__confirm {
-      color: var(--van-white);
+      color: var(--van-gray-1);
     }
   }
 

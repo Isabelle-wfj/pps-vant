@@ -199,7 +199,7 @@ import type { CircleProps, CircleStartPosition } from 'vant';
 | ----------------------------- | ----------------------------- | ---- |
 | --van-circle-size             | _100px_                       | -    |
 | --van-circle-color            | _var(--van-primary-color)_    | -    |
-| --van-circle-layer-color      | _var(--van-white)_            | -    |
+| --van-circle-layer-color      | _var(--van-gray-1)_           | -    |
 | --van-circle-text-color       | _var(--van-text-color)_       | -    |
 | --van-circle-text-font-weight | _var(--van-font-weight-bold)_ | -    |
 | --van-circle-text-font-size   | _var(--van-font-size-md)_     | -    |

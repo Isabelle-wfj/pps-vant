@@ -13,10 +13,13 @@ const t = useTranslate({
     alert1: '提示弹窗',
     alert2: '提示弹窗（无标题）',
     confirm: '确认弹窗',
+    confirm1: '确认弹窗（操作不可逆）',
+    confirm2: '确认弹窗（带图标）',
     content1: '代码是写出来给人看的，附带能在机器上运行。',
     content2: '生命远不止连轴转和忙到极限，人类的体验远比这辽阔、丰富得多。',
     content3:
       '如果解决方法是丑陋的，那就肯定还有更好的解决方法，只是还没有发现而已。',
+    content4: '当执行不可逆等危险操作时，主操作标红提醒',
     beforeClose: '异步关闭',
     roundButton: '圆角按钮样式',
     componentCall: '组件调用',
@@ -73,6 +76,24 @@ const onClickConfirm = () => {
   });
 };
 
+const onClickConfirm1 = () => {
+  Dialog.confirm({
+    title: t('title'),
+    message: t('content4'),
+    confirmButtonColor: '#FF603F',
+  });
+};
+
+const onClickConfirm2 = () => {
+  Dialog.confirm({
+    title: '',
+    message: t('content2'),
+    icon: 'color-fail',
+    svg: true,
+    showCancelButton: false,
+  });
+};
+
 const onClickBeforeClose = () => {
   const beforeClose = (action: DialogAction) =>
     new Promise<boolean>((resolve) => {
@@ -92,6 +113,8 @@ const onClickBeforeClose = () => {
     <van-cell is-link :title="t('alert1')" @click="onClickAlert" />
     <van-cell is-link :title="t('alert2')" @click="onClickAlert2" />
     <van-cell is-link :title="t('confirm')" @click="onClickConfirm" />
+    <van-cell is-link :title="t('confirm1')" @click="onClickConfirm1" />
+    <van-cell is-link :title="t('confirm2')" @click="onClickConfirm2" />
   </demo-block>
 
   <demo-block card :title="t('roundButton')">

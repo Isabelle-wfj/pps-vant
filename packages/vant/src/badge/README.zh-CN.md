@@ -175,7 +175,7 @@ import type { BadgeProps, BadgePosition } from 'vant';
 | 名称 | 默认值 | 描述 |
 | --- | --- | --- |
 | --van-badge-size | _16px_ | - |
-| --van-badge-color | _var(--van-white)_ | - |
+| --van-badge-color | _var(--van-gray-1)_ | - |
 | --van-badge-padding | _0 3px_ | - |
 | --van-badge-font-size | _var(--van-font-size-sm)_ | - |
 | --van-badge-font-weight | _var(--van-font-weight-bold)_ | - |

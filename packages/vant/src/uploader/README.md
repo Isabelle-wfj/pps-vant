@@ -391,12 +391,12 @@ The component provides the following CSS variables, which can be used to customi
 | --- | --- | --- |
 | --van-uploader-size | _80px_ | - |
 | --van-uploader-icon-size | _24px_ | - |
-| --van-uploader-icon-color | _var(--van-tip-color)_ | - |
+| --van-uploader-icon-color | _var(--van-gray-5)_ | - |
 | --van-uploader-text-color | _var(--van-text-color-2)_ | - |
 | --van-uploader-text-font-size | _var(--van-font-size-sm)_ | - |
-| --van-uploader-upload-background-color | _var(--van-bg-color)_ | - |
+| --van-uploader-upload-background-color | _var(--van-gray-3)_ | - |
 | --van-uploader-upload-active-color | _var(--van-active-color)_ | - |
-| --van-uploader-delete-color | _var(--van-white)_ | - |
+| --van-uploader-delete-color | _var(--van-gray-1)_ | - |
 | --van-uploader-delete-icon-size | _14px_ | - |
 | --van-uploader-delete-background-color | _rgba(0, 0, 0, 0.7)_ | - |
 | --van-uploader-file-background-color | _var(--van-background-color)_ | - |
@@ -406,11 +406,11 @@ The component provides the following CSS variables, which can be used to customi
 | --van-uploader-file-name-margin-top | _var(--van-padding-xs)_ | - |
 | --van-uploader-file-name-font-size | _var(--van-font-size-sm)_ | - |
 | --van-uploader-file-name-text-color | _var(--van-gray-7)_ | - |
-| --van-uploader-mask-text-color | _var(--van-white)_ | - |
+| --van-uploader-mask-text-color | _var(--van-gray-1)_ | - |
 | --van-uploader-mask-background-color | _fade(var(--van-gray-8), 88%)_ | - |
 | --van-uploader-mask-icon-size | _22px_ | - |
 | --van-uploader-mask-message-font-size | _var(--van-font-size-sm)_ | - |
 | --van-uploader-mask-message-line-height | _var(--van-line-height-xs)_ | - |
 | --van-uploader-loading-icon-size | _22px_ | - |
-| --van-uploader-loading-icon-color | _var(--van-white)_ | - |
+| --van-uploader-loading-icon-color | _var(--van-gray-1)_ | - |
 | --van-uploader-disabled-opacity | _var(--van-disabled-opacity)_ | - |

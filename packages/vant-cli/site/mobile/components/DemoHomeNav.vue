@@ -57,7 +57,7 @@ export default {
     display: flex;
     margin: 0 0 12px;
     padding-left: 20px;
-    color: #323233;
+    color: #141414;
     font-weight: 600;
     font-size: 14px;
     line-height: 40px;

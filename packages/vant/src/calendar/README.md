@@ -395,12 +395,12 @@ The component provides the following CSS variables, which can be used to customi
 | --van-calendar-month-mark-font-size | _160px_ | - |
 | --van-calendar-day-height | _64px_ | - |
 | --van-calendar-day-font-size | _var(--van-font-size-lg)_ | - |
-| --van-calendar-range-edge-color | _var(--van-white)_ | - |
+| --van-calendar-range-edge-color | _var(--van-gray-1)_ | - |
 | --van-calendar-range-edge-background-color | _var(--van-danger-color)_ | - |
 | --van-calendar-range-middle-color | _var(--van-danger-color)_ | - |
 | --van-calendar-range-middle-background-opacity | _0.1_ | - |
 | --van-calendar-selected-day-size | _54px_ | - |
-| --van-calendar-selected-day-color | _var(--van-white)_ | - |
+| --van-calendar-selected-day-color | _var(--van-gray-1)_ | - |
 | --van-calendar-info-font-size | _var(--van-font-size-xs)_ | - |
 | --van-calendar-info-line-height | _var(--van-line-height-xs)_ | - |
 | --van-calendar-selected-day-background-color | _var(--van-danger-color)_ | - |

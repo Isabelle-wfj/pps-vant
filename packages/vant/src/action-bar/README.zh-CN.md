@@ -101,7 +101,7 @@ export default {
 | --- | --- | --- | --- |
 | text | 按钮文字 | _string_ | - |
 | icon | 图标 | _string_ | - |
-| color | 图标颜色 | _string_ | `#323233` |
+| color | 图标颜色 | _string_ | `#141414` |
 | icon-class | 图标额外类名 | _string \| Array \| object_ | - |
 | icon-prefix `v3.0.17` | 图标类名前缀，等同于 Icon 组件的 [class-prefix 属性](#/zh-CN/icon#props) | _string_ | `van-icon` |
 | dot | 是否显示图标右上角小红点 | _boolean_ | `false` |

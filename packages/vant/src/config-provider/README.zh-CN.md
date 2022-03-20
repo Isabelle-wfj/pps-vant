@@ -37,9 +37,9 @@ Vant 组件通过丰富的 [CSS 变量](https://developer.mozilla.org/zh-CN/docs
 
 ```css
 :root {
-  --van-white: #fff;
+  --van-gray-1: #fff;
   --van-blue: #1989fa;
-  --van-button-primary-color: var(--van-white);
+  --van-button-primary-color: var(--van-gray-1);
   --van-button-primary-background-color: var(--van-primary-color);
 }
 ```
@@ -132,15 +132,15 @@ Vant 中的 CSS 变量分为 **基础变量** 和 **组件变量**。组件变�
 ```less
 // Color Palette
 --van-gray-10: #000;
---van-white: #fff;
---van-bg-color: #f7f8fa;
+--van-gray-1: #fff;
+--van-gray-3: #f7f8fa;
 --van-gray-2: #f2f3f5;
 --van-gray-4: #ebedf0;
---van-tip-color: #dcdee0;
+--van-gray-5: #dcdee0;
 --van-disabled-color: #c8c9cc;
 --van-gray-6: #969799;
 --van-gray-7: #646566;
---van-gray-8: #323233;
+--van-gray-8: #141414;
 --van-red: #ee0a24;
 --van-blue: #1989fa;
 --van-orange: #ff976a;
@@ -164,8 +164,8 @@ Vant 中的 CSS 变量分为 **基础变量** 和 **组件变量**。组件变�
 --van-active-color: var(--van-gray-2);
 --van-active-opacity: 0.6;
 --van-disabled-opacity: 0.5;
---van-background-color: var(--van-bg-color);
---van-background-color-light: var(--van-white);
+--van-background-color: var(--van-gray-3);
+--van-background-color-light: var(--van-gray-1);
 
 // Padding
 --van-padding-base: 4px;

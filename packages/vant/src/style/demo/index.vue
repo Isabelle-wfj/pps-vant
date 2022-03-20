@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import VanCell from '../../cell';
+import VanRow from '../../row';
+import VanCol from '../../col';
 import { ref } from 'vue';
 import { useTranslate } from '../../../docs/site/use-translate';
 
@@ -9,6 +11,7 @@ const t = useTranslate({
     ellipsis: '文字省略',
     animation: '动画',
     shadow: '投影',
+    color: '色彩',
     toggle: '切换动画',
     text1: '这是一段最多显示一行的文字，后面的内容会省略',
     text2:
@@ -64,6 +67,23 @@ const animate = (newName: string) => {
     <div class="pps-shadow-heavy div-shadow">heavy</div>
   </demo-block>
 
+  <demo-block card :title="t('color')" class="color">
+    <van-row gutter="20">
+      <van-col class="pps-theme">主题</van-col>
+      <van-col class="pps-success">成功</van-col>
+      <van-col class="pps-fail">失败</van-col>
+      <van-col class="pps-warning">警告</van-col>
+      <van-col class="pps-link">链接</van-col>
+    </van-row>
+    <div class="demo-style-row"></div>
+    <van-row gutter="20">
+      <van-col>默认</van-col>
+      <van-col class="pps-desc-1">描述性</van-col>
+      <van-col class="pps-desc">辅助性</van-col>
+      <van-col class="pps-tip">提示性</van-col>
+    </van-row>
+  </demo-block>
+
   <transition :name="transitionName">
     <div v-show="show" class="demo-animate-block" />
   </transition>
@@ -78,11 +98,19 @@ const animate = (newName: string) => {
     font-size: 14px;
     line-height: 18px;
   }
+  .color,
+  .shadow {
+    .van-doc-demo-block__card {
+      padding: 30px 24px;
+      background: #fff;
+    }
+  }
+  .demo-style-row {
+    margin-bottom: 20px;
+  }
   .shadow {
     .van-doc-demo-block__card {
       display: flex;
-      padding: 30px 24px;
-      background: #fff;
       font-size: 12px;
     }
     .div-shadow {

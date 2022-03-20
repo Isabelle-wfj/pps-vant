@@ -129,7 +129,7 @@ import type { CardProps } from 'vant';
 | --van-card-padding | _var(--van-padding-xs) var(--van-padding-md)_ | - |
 | --van-card-font-size | _var(--van-font-size-sm)_ | - |
 | --van-card-text-color | _var(--van-text-color)_ | - |
-| --van-card-background-color | _var(--van-bg-color)_ | - |
+| --van-card-background-color | _var(--van-gray-3)_ | - |
 | --van-card-thumb-size | _88px_ | - |
 | --van-card-thumb-border-radius | _var(--van-border-radius-lg)_ | - |
 | --van-card-title-line-height | _16px_ | - |

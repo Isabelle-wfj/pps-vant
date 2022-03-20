@@ -103,7 +103,7 @@ const onChange = (index: number) => Toast(t('message') + index);
 
   .van-swipe {
     &-item {
-      color: var(--van-white);
+      color: var(--van-gray-1);
       font-size: 20px;
       line-height: 150px;
       text-align: center;
@@ -123,7 +123,7 @@ const onChange = (index: number) => Toast(t('message') + index);
       width: 100%;
       height: 240px;
       padding: 30px 60px;
-      background-color: var(--van-white);
+      background-color: var(--van-gray-1);
       pointer-events: none;
     }
   }
@@ -139,7 +139,7 @@ const onChange = (index: number) => Toast(t('message') + index);
     right: 5px;
     bottom: 5px;
     padding: 2px 5px;
-    color: var(--van-white);
+    color: var(--van-gray-1);
     font-size: 12px;
     background: rgba(0, 0, 0, 0.1);
   }

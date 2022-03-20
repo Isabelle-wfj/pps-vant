@@ -14,6 +14,7 @@ const t = useTranslate({
     success: '成功按钮',
     danger: '危险按钮',
     warning: '警告按钮',
+    theme: '主题按钮',
     large: '大号按钮',
     normal: '普通按钮',
     small: '小型按钮',
@@ -79,6 +80,7 @@ const t = useTranslate({
     <van-button type="danger">{{ t('danger') }}</van-button>
     <div class="demo-button-row"></div>
     <van-button type="warning">{{ t('warning') }}</van-button>
+    <van-button type="theme">{{ t('theme') }}</van-button>
   </demo-block>
 
   <demo-block :title="t('plain')">

@@ -78,6 +78,13 @@ const t = useTranslate({
     <van-cell
       :title="t('cell')"
       is-link
+      :label="`${t('desc')}${t('desc')}${t('desc')}${t('desc')}${t('desc')}${t(
+        'desc'
+      )}${t('desc')}`"
+    />
+    <van-cell
+      :title="t('cell')"
+      is-link
       arrow-direction="down"
       :value="t('content')"
     />
@@ -134,7 +141,7 @@ const t = useTranslate({
   }
 
   .search-icon {
-    font-size: 16px;
+    font-size: 22px;
     line-height: inherit;
   }
 }

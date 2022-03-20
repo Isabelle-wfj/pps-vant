@@ -292,7 +292,7 @@ imagePreviewRef.value?.swipeTo(1);
 
 | 名称 | 默认值 | 描述 |
 | --- | --- | --- |
-| --van-image-preview-index-text-color | _var(--van-white)_ | - |
+| --van-image-preview-index-text-color | _var(--van-gray-1)_ | - |
 | --van-image-preview-index-font-size | _var(--van-font-size-md)_ | - |
 | --van-image-preview-index-line-height | _var(--van-line-height-md)_ | - |
 | --van-image-preview-index-text-shadow | _0 1px 1px var(--van-gray-8)_ | - |

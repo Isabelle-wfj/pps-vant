@@ -28,6 +28,9 @@
   --van-button-warning-color: @button-warning-color;
   --van-button-warning-background-color: @button-warning-background-color;
   --van-button-warning-border-color: @button-warning-border-color;
+  --van-button-theme-color: @button-theme-color;
+  --van-button-theme-background-color: @button-theme-background-color;
+  --van-button-theme-border-color: @button-theme-border-color;
   --van-button-border-width: @button-border-width;
   --van-button-sm-border-radius: @button-sm-border-radius;
   --van-button-md-border-radius: @button-md-border-radius;
@@ -116,6 +119,13 @@
       var(--van-button-warning-border-color);
   }
 
+  &--theme {
+    color: var(--van-button-theme-color);
+    background: var(--van-button-theme-background-color);
+    border: var(--van-button-border-width) solid
+      var(--van-button-theme-border-color);
+  }
+
   &--plain {
     background: var(--van-button-plain-background-color);
 
@@ -184,8 +194,8 @@
   }
 
   &--disabled.van-button--primary {
-    background: var(--van-bg-color);
-    color: var(--van-tip-color);
+    background: var(--van-gray-3);
+    color: var(--van-gray-5);
     border-color: transparent;
     opacity: 1;
   }

@@ -151,6 +151,6 @@ The component provides the following CSS variables, which can be used to customi
 | --van-image-placeholder-font-size | _var(--van-font-size-md)_ | - |
 | --van-image-placeholder-background-color | _var(--van-background-color)_ | - |
 | --van-image-loading-icon-size | _32px_ | - |
-| --van-image-loading-icon-color | _var(--van-tip-color)_ | - |
+| --van-image-loading-icon-color | _var(--van-gray-5)_ | - |
 | --van-image-error-icon-size | _32px_ | - |
-| --van-image-error-icon-color | _var(--van-tip-color)_ | - |
+| --van-image-error-icon-color | _var(--van-gray-5)_ | - |

@@ -240,7 +240,7 @@ The component provides the following CSS variables, which can be used to customi
 
 | Name | Default Value | Description |
 | --- | --- | --- |
-| --van-image-preview-index-text-color | _var(--van-white)_ | - |
+| --van-image-preview-index-text-color | _var(--van-gray-1)_ | - |
 | --van-image-preview-index-font-size | _var(--van-font-size-md)_ | - |
 | --van-image-preview-index-line-height | _var(--van-line-height-md)_ | - |
 | --van-image-preview-index-text-shadow | _0 1px 1px var(--van-gray-8)_ | - |

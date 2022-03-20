@@ -223,7 +223,7 @@ The component provides the following CSS variables, which can be used to customi
 | --- | --- | --- |
 | --van-search-padding | _10px var(--van-padding-sm)_ | - |
 | --van-search-background-color | _var(--van-background-color-light)_ | - |
-| --van-search-content-background-color | _var(--van-bg-color)_ | - |
+| --van-search-content-background-color | _var(--van-gray-3)_ | - |
 | --van-search-input-height | _34px_ | - |
 | --van-search-label-padding | _0 5px_ | - |
 | --van-search-label-color | _var(--van-text-color)_ | - |

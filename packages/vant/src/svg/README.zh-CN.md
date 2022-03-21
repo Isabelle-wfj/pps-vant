@@ -1,42 +1,24 @@
-# Icon 图标
+# Svg 彩色图标
 
 ### 介绍
 
-基于字体的图标集，可以通过 Icon 组件使用，也可以在其他组件中通过 `icon` 属性引用。
-
 ### 引入
-
-通过以下方式来全局注册组件，更多注册方式请参考[组件注册](#/zh-CN/advanced-usage#zu-jian-zhu-ce)。
 
 ```js
 import { createApp } from 'vue';
-import { Icon } from 'vant';
+import { Svg } from 'svg';
 
 const app = createApp();
-app.use(Icon);
+app.use(Svg);
 ```
 
 ## 代码演示
 
 ### 基础用法
 
-通过 `name` 属性来指定需要使用的图标，Vant 内置了一套图标库（见右侧示例），可以直接传入对应的名称来使用。
-
 ```html
-<van-icon name="chat-o" />
+<pps-svg name="color-fial" />
 ```
-
-### 使用图片 URL
-
-你也可以直接在 `name` 属性中传入一个图片 URL 来作为图标。
-
-```html
-<van-icon name="https://b.yzcdn.cn/vant/icon-demo-1126.png" />
-```
-
-### 徽标提示
-
-设置 `dot` 属性后，会在图标右上角展示一个小红点；设置 `badge` 属性后，会在图标右上角展示相应的徽标。
 
 ```html
 <van-icon name="chat-o" dot />

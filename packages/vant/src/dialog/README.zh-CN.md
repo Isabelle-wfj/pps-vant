@@ -86,6 +86,18 @@ Dialog.confirm({
   .catch(() => {
     // on cancel
   });
+
+Dialog.confirm({
+  title: t('title'),
+  message: '当执行不可逆等危险操作时，主操作标红提醒',
+});
+
+Dialog.confirm({
+  title: t('title'),
+  message:
+    '如果解决方法是丑陋的，那就肯定还有更好的解决方法，只是还没有发现而已。',
+  confirmButtonColor: '#FF603F',
+});
 ```
 
 ### 圆角按钮风格
@@ -192,6 +204,9 @@ export default {
 | --- | --- | --- | --- |
 | title | 标题 | _string_ | - |
 | width | 弹窗宽度，默认单位为 `px` | _number \| string_ | `320px` |
+| icon | 图标 | _string_ | 可以是字体图标也可以是图片，使用同 pps-icon |
+| size | 图标大小 `px` | _number \| string_ | `56px` |
+| color | 图标颜色 | _string_ | - |
 | message | 文本内容，支持通过 `\n` 换行 | _string \| () => JSX.ELement_ | - |
 | messageAlign | 内容对齐方式，可选值为 `left` `right` | _string_ | `center` |
 | theme | 样式风格，可选值为 `round-button` | _string_ | `default` |

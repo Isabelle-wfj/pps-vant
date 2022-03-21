@@ -46,7 +46,8 @@ const [name, bem, t] = createNamespace('dialog');
 const dialogProps = extend({}, popupSharedProps, {
   title: String,
   icon: String,
-  svg: Boolean,
+  color: String,
+  size: numericProp,
   theme: String as PropType<DialogTheme>,
   width: numericProp,
   message: [String, Function] as PropType<DialogMessage>,
@@ -140,7 +141,7 @@ export default defineComponent({
     );
 
     const renderTitle = () => {
-      const { icon, svg } = props;
+      const { icon, size, color } = props;
       const title = slots.title ? slots.title() : props.title;
       if (title) {
         return (
@@ -153,15 +154,12 @@ export default defineComponent({
           </div>
         );
       }
-      if (icon && svg) {
-        return (
-          <svg class="color-icon" width="48px" height="48px">
-            <use xlinkHref={'#' + icon} width="48px" height="48px" />
-          </svg>
-        );
-      }
       if (icon) {
-        return <Icon name={icon}></Icon>;
+        return (
+          <div class={bem('header', 'icon')}>
+            <Icon name={icon} color={color} size={size}></Icon>
+          </div>
+        );
       }
     };
 
@@ -233,7 +231,7 @@ export default defineComponent({
       <ActionBar class={bem('footer')}>
         {props.showCancelButton && (
           <ActionBarButton
-            type="warning"
+            type="default"
             text={props.cancelButtonText || t('cancel')}
             class={bem('cancel')}
             color={props.cancelButtonColor}

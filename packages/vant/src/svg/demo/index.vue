@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import VanIcon from '..';
+import PpsSvg from '..';
 import VanTabs from '../../tabs';
 import VanTab from '../../tab';
 import VanRow from '../../row';
@@ -63,7 +63,7 @@ const t = useTranslate({
 });
 
 const tab = ref(0);
-const demoIcon = 'chat-o';
+const demoIcon = 'color-fail';
 const demoImage = 'https://b.yzcdn.cn/vant/icon-demo-1126.png';
 
 const copy = (icon: string, option: Record<string, unknown> = {}) => {
@@ -98,7 +98,7 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
       <demo-block :title="t('basicUsage')">
         <van-row>
           <van-col span="6" @click="copy(demoIcon)">
-            <van-icon :name="demoIcon" />
+            <pps-svg :name="demoIcon" />
           </van-col>
           <van-col span="6" @click="copy(demoImage)">
             <van-icon :name="demoImage" />

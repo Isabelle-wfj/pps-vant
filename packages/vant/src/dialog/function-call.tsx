@@ -41,6 +41,9 @@ function Dialog(options: DialogOptions) {
 Dialog.defaultOptions = {
   title: '',
   width: '',
+  icon: '',
+  color: '',
+  size: '',
   theme: null,
   message: '',
   overlay: true,

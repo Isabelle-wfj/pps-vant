@@ -10,7 +10,8 @@ export type DialogMessageAlign = 'left' | 'center' | 'right';
 export type DialogOptions = {
   title?: string;
   icon?: string;
-  svg?: boolean;
+  size?: string | number;
+  color?: string;
   width?: string | number;
   theme?: DialogTheme;
   message?: DialogMessage;

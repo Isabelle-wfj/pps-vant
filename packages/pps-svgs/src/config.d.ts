@@ -1,5 +1,6 @@
 declare const config: {
   name: string;
-  svg: void;
+  // eslint-disable-next-line @typescript-eslint/ban-types
+  svg: () => {};
 };
 export default config;

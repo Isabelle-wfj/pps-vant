@@ -65,6 +65,7 @@ const t = useTranslate({
 const tab = ref(0);
 const demoIcon = 'chat-o';
 const demoImage = 'https://b.yzcdn.cn/vant/icon-demo-1126.png';
+const cdnSvg = 'https://cdn.ipampas.com/common/images/svgs/';
 
 const copy = (icon: string, option: Record<string, unknown> = {}) => {
   let tag = `<van-icon name="${icon}"`;
@@ -185,9 +186,21 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
       </van-row>
     </van-tab>
     <van-tab class="demo-icon-tab-panel" :title="t('other')">
-      <div style="font-size: 14px; padding: 24px 16px">
-        前往阿里图标库【业务图标】类目下观看
+      <div style="font-size: 12px; padding: 24px 16px 0 16px; color: #586a95">
+        完整图标前往阿里图标库【业务图标】类目下观看
       </div>
+      <p style="font-size: 16px; padding: 24px 16px">彩色图标:</p>
+      <van-row>
+        <van-col
+          v-for="icon in icons.color"
+          :key="icon"
+          span="8"
+          @click="copy(`${cdnSvg}${icon}.png`)"
+        >
+          <van-icon :name="`${cdnSvg}${icon}.png`" />
+          <span>{{ icon }}</span>
+        </van-col>
+      </van-row>
     </van-tab>
   </van-tabs>
 </template>

@@ -251,4 +251,14 @@ export default {
     'photo-fail',
     'sort',
   ],
+  color: [
+    'color-fail',
+    'color-successful',
+    'color-warning',
+    'logo-ipampas',
+    'bank-guangda',
+    'bank-zhada',
+    'bank-huaiqi',
+    'bank-minsheng',
+  ],
 };

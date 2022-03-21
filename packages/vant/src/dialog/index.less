@@ -4,6 +4,7 @@
   --van-dialog-width: @dialog-width;
   --van-dialog-small-screen-width: @dialog-small-screen-width;
   --van-dialog-font-size: @dialog-font-size;
+  --van-dialog-icon-size: @dialog-icon-size;
   --van-dialog-transition: @dialog-transition;
   --van-dialog-border-radius: @dialog-border-radius;
   --van-dialog-background-color: @dialog-background-color;
@@ -49,13 +50,22 @@
     &--isolated {
       padding: var(--van-dialog-header-isolated-padding);
     }
+
+    &--icon {
+      font-size: 0;
+      line-height: 0;
+    }
+
+    .van-icon {
+      font-size: var(--van-dialog-icon-size);
+    }
   }
 
   &__content {
     &--isolated {
       display: flex;
       align-items: center;
-      min-height: 104px;
+      min-height: 48px;
     }
   }
 
@@ -66,6 +76,7 @@
     overflow-y: auto;
     font-size: var(--van-dialog-message-font-size);
     line-height: var(--van-dialog-message-line-height);
+    color: var(--van-dialog-has-title-message-text-color);
 
     // allow newline character
     white-space: pre-wrap;
@@ -75,7 +86,10 @@
 
     &--has-title {
       padding-top: var(--van-dialog-has-title-message-padding-top);
-      color: var(--van-dialog-has-title-message-text-color);
+    }
+
+    &--has-icon {
+      padding-top: var(--van-dialog-has-icon-message-padding-top);
     }
 
     &--left {

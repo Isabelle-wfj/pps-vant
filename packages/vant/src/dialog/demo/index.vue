@@ -86,10 +86,8 @@ const onClickConfirm1 = () => {
 
 const onClickConfirm2 = () => {
   Dialog.confirm({
-    title: '',
     message: t('content2'),
-    icon: 'color-fail',
-    svg: true,
+    icon: 'https://cdn.ipampas.com/common/images/svgs/color-fail.png',
     showCancelButton: false,
   });
 };

@@ -42,6 +42,7 @@ Dialog.defaultOptions = {
   title: '',
   width: '',
   icon: '',
+  img: '',
   color: '',
   size: '',
   theme: null,

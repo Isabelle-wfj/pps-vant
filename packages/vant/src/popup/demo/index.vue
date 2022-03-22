@@ -67,6 +67,7 @@ const showCustomIconPosition = ref(false);
     <van-popup
       v-model:show="showBottom"
       position="bottom"
+      title="标题"
       :style="{ height: '30%' }"
     />
     <van-popup

@@ -76,14 +76,14 @@ const showBottomToast = () => {
 const showIconToast = () => {
   Toast({
     message: t('customIcon'),
-    icon: 'like-o',
+    icon: 'success',
   });
 };
 
 const showImageToast = () => {
   Toast({
     message: t('customImage'),
-    icon: 'https://img.yzcdn.cn/vant/logo.png',
+    icon: 'https://cdn.ipampas.com/common/images/icon.png',
   });
 };
 

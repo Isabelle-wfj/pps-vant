@@ -100,7 +100,7 @@ export default defineComponent({
       if (hasIcon) {
         return (
           <Icon
-            name={icon || type}
+            name={icon || type + '-circle-o'}
             size={iconSize}
             class={bem('icon')}
             classPrefix={iconPrefix}
@@ -147,7 +147,10 @@ export default defineComponent({
     return () => (
       <Popup
         class={[
-          bem([props.position, { [props.type]: !props.icon }]),
+          bem([
+            props.position,
+            { [props.type]: !props.icon, 'has-icon': props.icon },
+          ]),
           props.className,
         ]}
         lockScroll={false}

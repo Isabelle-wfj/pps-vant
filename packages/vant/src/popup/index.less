@@ -110,9 +110,24 @@
     &-slide-left-leave-active {
       transform: translate3d(-100%, -50%, 0);
     }
+    &__header {
+      display: flex;
+      align-items: center;
+      &--has-title {
+        border-bottom: 1px solid var(--van-gray-4);
+        padding: 16px 0;
+      }
+    }
+    &__title {
+      text-align: center;
+      flex: 1;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
 
     &__close-icon {
       position: absolute;
+      flex-shrink: 0;
       z-index: var(--van-popup-close-icon-z-index);
       color: var(--van-popup-close-icon-color);
       font-size: var(--van-popup-close-icon-size);

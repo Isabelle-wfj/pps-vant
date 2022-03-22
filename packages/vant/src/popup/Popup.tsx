@@ -22,6 +22,7 @@ import {
   makeStringProp,
   callInterceptor,
   createNamespace,
+  truthProp,
   HAPTICS_FEEDBACK,
 } from '../utils';
 
@@ -41,6 +42,8 @@ import type { PopupPosition, PopupCloseIconPosition } from './types';
 
 const popupProps = extend({}, popupSharedProps, {
   round: Boolean,
+  title: String,
+  border: truthProp,
   position: makeStringProp<PopupPosition>('center'),
   closeIcon: makeStringProp('cross'),
   closeable: Boolean,
@@ -155,20 +158,23 @@ export default defineComponent({
       close();
     };
 
-    const renderCloseIcon = () => {
-      if (props.closeable) {
+    const renderTitle = () => {
+      if (props.title || props.closeable) {
         return (
-          <Icon
-            role="button"
-            tabindex={0}
-            name={props.closeIcon}
-            class={[
-              bem('close-icon', props.closeIconPosition),
-              HAPTICS_FEEDBACK,
-            ]}
-            classPrefix={props.iconPrefix}
-            onClick={onClickCloseIcon}
-          />
+          <div class={[bem('header', { 'has-title': props.border })]}>
+            <p class={[bem('title')]}>{props.title}</p>
+            <Icon
+              role="button"
+              tabindex={0}
+              name={props.closeIcon}
+              class={[
+                bem('close-icon', props.closeIconPosition),
+                HAPTICS_FEEDBACK,
+              ]}
+              classPrefix={props.iconPrefix}
+              onClick={onClickCloseIcon}
+            />
+          </div>
         );
       }
     };
@@ -198,8 +204,8 @@ export default defineComponent({
           onKeydown={onKeydown}
           {...attrs}
         >
+          {renderTitle()}
           {slots.default?.()}
-          {renderCloseIcon()}
         </div>
       );
     });

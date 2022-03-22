@@ -90,13 +90,13 @@ Dialog.confirm({
 Dialog.confirm({
   title: t('title'),
   message: '当执行不可逆等危险操作时，主操作标红提醒',
+  confirmButtonColor: '#FF603F',
 });
 
 Dialog.confirm({
   title: t('title'),
-  message:
-    '如果解决方法是丑陋的，那就肯定还有更好的解决方法，只是还没有发现而已。',
-  confirmButtonColor: '#FF603F',
+  icon: 'https://cdn.ipampas.com/common/images/svgs/color-fail.png',
+  message: '带图标的弹窗',
 });
 ```
 
@@ -116,6 +116,23 @@ Dialog.alert({
 Dialog.alert({
   message: '生命远不止连轴转和忙到极限，人类的体验远比这辽阔、丰富得多。',
   theme: 'round-button',
+}).then(() => {
+  // on close
+});
+
+Dialog.alert({
+  titile: '提交成功',
+  message: '生命远不止连轴转和忙到极限，人类的体验远比这辽阔、丰富得多。',
+  theme: 'round-button',
+  icon: 'https://cdn.ipampas.com/common/images/svgs/color-fail.png',
+}).then(() => {
+  // on close
+});
+
+Dialog.alert({
+  message: '生命远不止连轴转和忙到极限，人类的体验远比这辽阔、丰富得多。',
+  theme: 'round-button',
+  img: 'https://element.eleme.cn/static/theme-index-blue.c38b733.png',
 }).then(() => {
   // on close
 });
@@ -205,6 +222,7 @@ export default {
 | title | 标题 | _string_ | - |
 | width | 弹窗宽度，默认单位为 `px` | _number \| string_ | `320px` |
 | icon | 图标 | _string_ | 可以是字体图标也可以是图片，使用同 pps-icon |
+| img | 图片链接地址 | _string_ | -- |
 | size | 图标大小 `px` | _number \| string_ | `56px` |
 | color | 图标颜色 | _string_ | - |
 | message | 文本内容，支持通过 `\n` 换行 | _string \| () => JSX.ELement_ | - |

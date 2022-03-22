@@ -7,10 +7,12 @@
   --van-toast-loading-icon-color: @toast-loading-icon-color;
   --van-toast-line-height: @toast-line-height;
   --van-toast-border-radius: @toast-border-radius;
+  --van-toast-has-icon-border-radius: @toast-has-icon-border-radius;
   --van-toast-background-color: @toast-background-color;
   --van-toast-icon-size: @toast-icon-size;
   --van-toast-text-min-width: @toast-text-min-width;
   --van-toast-text-padding: @toast-text-padding;
+  --van-toast-has-icon-text-padding: @toast-has-icon-text-padding;
   --van-toast-default-padding: @toast-default-padding;
   --van-toast-default-width: @toast-default-width;
   --van-toast-default-min-height: @toast-default-min-height;
@@ -74,6 +76,16 @@
   &--bottom {
     top: auto;
     bottom: var(--van-toast-position-bottom-distance);
+  }
+
+  &--loading,
+  &--success,
+  &--fail,
+  &--has-icon {
+    border-radius: var(--van-toast-has-icon-border-radius);
+    width: 72px;
+    padding: var(--van-toast-has-icon-text-padding);
+    min-height: 72px;
   }
 
   &__icon {

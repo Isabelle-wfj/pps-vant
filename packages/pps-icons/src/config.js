@@ -15,6 +15,8 @@ export default {
   outline: [
     // has corresponding filled icon
     'location-o',
+    'success-circle-o',
+    'fail-circle-o',
     'like-o',
     'star-o',
     'phone-o',
@@ -153,6 +155,8 @@ export default {
   ],
   filled: [
     // has corresponding outline icon
+    'success-circle',
+    'fail-circle',
     'location',
     'like',
     'star',

@@ -67,7 +67,7 @@ export default defineComponent({
               first: isFirst.value,
             },
           ])}
-          size="large"
+          size="normal"
           type={type}
           icon={icon}
           color={color}

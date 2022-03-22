@@ -10,15 +10,17 @@ const VanDialog = Dialog.Component;
 const t = useTranslate({
   'zh-CN': {
     title: '标题',
+    title3: '提交成功',
     alert1: '提示弹窗',
     alert2: '提示弹窗（无标题）',
+    alert3: '提示弹窗（带图标）',
+    alert4: '提示弹窗（带图片）',
     confirm: '确认弹窗',
     confirm1: '确认弹窗（操作不可逆）',
     confirm2: '确认弹窗（带图标）',
     content1: '代码是写出来给人看的，附带能在机器上运行。',
     content2: '生命远不止连轴转和忙到极限，人类的体验远比这辽阔、丰富得多。',
-    content3:
-      '如果解决方法是丑陋的，那就肯定还有更好的解决方法，只是还没有发现而已。',
+    content3: '带图标的弹窗',
     content4: '当执行不可逆等危险操作时，主操作标红提醒',
     beforeClose: '异步关闭',
     roundButton: '圆角按钮样式',
@@ -69,6 +71,24 @@ const onClickRound2 = () => {
   });
 };
 
+const onClickRound3 = () => {
+  Dialog.alert({
+    icon: 'https://cdn.ipampas.com/common/images/svgs/color-successful.png',
+    title: t('title3'),
+    theme: 'round-button',
+    message: t('content2'),
+  });
+};
+
+const onClickRound4 = () => {
+  Dialog.alert({
+    title: t('title'),
+    img: 'https://element.eleme.cn/static/theme-index-blue.c38b733.png',
+    theme: 'round-button',
+    message: t('content2'),
+  });
+};
+
 const onClickConfirm = () => {
   Dialog.confirm({
     title: t('title'),
@@ -79,14 +99,14 @@ const onClickConfirm = () => {
 const onClickConfirm1 = () => {
   Dialog.confirm({
     title: t('title'),
-    message: t('content4'),
+    message: t('content2'),
     confirmButtonColor: '#FF603F',
   });
 };
 
 const onClickConfirm2 = () => {
   Dialog.confirm({
-    message: t('content2'),
+    message: t('content3'),
     icon: 'https://cdn.ipampas.com/common/images/svgs/color-fail.png',
     showCancelButton: false,
   });
@@ -118,6 +138,8 @@ const onClickBeforeClose = () => {
   <demo-block card :title="t('roundButton')">
     <van-cell is-link :title="t('alert1')" @click="onClickRound" />
     <van-cell is-link :title="t('alert2')" @click="onClickRound2" />
+    <van-cell is-link :title="t('alert3')" @click="onClickRound3" />
+    <van-cell is-link :title="t('alert4')" @click="onClickRound4" />
   </demo-block>
 
   <demo-block card :title="t('beforeClose')">

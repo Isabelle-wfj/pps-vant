@@ -128,10 +128,6 @@ export default {
                 title: 'Icon 图标',
               },
               {
-                path: 'svg',
-                title: 'Svg 彩色图标',
-              },
-              {
                 path: 'image',
                 title: 'Image 图片',
               },

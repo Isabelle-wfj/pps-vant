@@ -29,6 +29,7 @@ import { popupSharedProps, popupSharedPropKeys } from '../popup/shared';
 // Components
 import { Popup } from '../popup';
 import { Icon } from '../icon';
+import { Image } from '../image';
 import { Button } from '../button';
 import { ActionBar } from '../action-bar';
 import { ActionBarButton } from '../action-bar-button';
@@ -47,6 +48,7 @@ const dialogProps = extend({}, popupSharedProps, {
   title: String,
   icon: String,
   color: String,
+  img: String,
   size: numericProp,
   theme: String as PropType<DialogTheme>,
   width: numericProp,
@@ -148,9 +150,12 @@ export default defineComponent({
           <div
             class={bem('header', {
               isolated: !props.message && !slots.default,
+              icon,
+              title,
             })}
           >
-            {title}
+            {props.icon && <Icon name={icon} color={color} size={size}></Icon>}
+            <p>{title}</p>
           </div>
         );
       }
@@ -158,6 +163,16 @@ export default defineComponent({
         return (
           <div class={bem('header', 'icon')}>
             <Icon name={icon} color={color} size={size}></Icon>
+          </div>
+        );
+      }
+    };
+
+    const renderImg = () => {
+      if (props.img) {
+        return (
+          <div class={bem('img')}>
+            <Image src={props.img} fit="cover"></Image>
           </div>
         );
       }
@@ -241,7 +256,7 @@ export default defineComponent({
         )}
         {props.showConfirmButton && (
           <ActionBarButton
-            type="danger"
+            type="default"
             text={props.confirmButtonText || t('confirm')}
             class={bem('confirm')}
             color={props.confirmButtonColor}
@@ -276,6 +291,7 @@ export default defineComponent({
           {...pick(props, popupInheritKeys)}
         >
           {renderTitle()}
+          {renderImg()}
           {renderContent()}
           {renderFooter()}
         </Popup>

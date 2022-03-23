@@ -294,7 +294,7 @@ test('should change arrow direction when using arrow-direction prop', () => {
       arrowDirection: 'up',
     },
   });
-  expect(wrapper.find('.van-icon-arrow-up').exists()).toBeTruthy();
+  expect(wrapper.find('.pps-icon-arrow-up').exists()).toBeTruthy();
 });
 
 test('should allow to format value with formatter prop', () => {

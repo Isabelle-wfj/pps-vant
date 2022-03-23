@@ -70,7 +70,7 @@ export default {
 ```html
 <van-button type="primary" text="Component Call" @click="showNotify" />
 <van-notify v-model:show="show" type="success">
-  <van-icon name="bell" style="margin-right: 4px;" />
+  <pps-icon name="bell" style="margin-right: 4px;" />
   <span>Content</span>
 </van-notify>
 ```

@@ -135,7 +135,7 @@ app.use(GridItem);
 | --- | --- | --- | --- |
 | text | 文字 | _string_ | - |
 | icon | 图标名称或图片链接，等同于 Icon 组件的 [name 属性](#/zh-CN/icon#props) | _string_ | - |
-| icon-prefix | 图标类名前缀，等同于 Icon 组件的 [class-prefix 属性](#/zh-CN/icon#props) | _string_ | `van-icon` |
+| icon-prefix | 图标类名前缀，等同于 Icon 组件的 [class-prefix 属性](#/zh-CN/icon#props) | _string_ | `pps-icon` |
 | icon-color | 图标颜色，等同于 Icon 组件的 [color 属性](#/zh-CN/icon#props) | _string_ | - |
 | reverse `v3.1.0` | 是否调换图标和文本的位置 | _boolean_ | `false` |
 | dot | 是否显示图标右上角小红点 | _boolean_ | `false` |

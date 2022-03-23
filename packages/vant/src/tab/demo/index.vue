@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import VanTabs from '../../tabs';
 import VanTab from '..';
-import VanIcon from '../../icon';
+import PpsIcon from '../../icon';
 import { ref } from 'vue';
 import { useTranslate } from '../../../docs/site/use-translate';
 import { Toast } from '../../toast';
@@ -137,7 +137,7 @@ const beforeChange = (name: number) => {
   <demo-block :title="t('title7')">
     <van-tabs v-model:active="active7">
       <van-tab v-for="index in 2" :key="index">
-        <template #title> <van-icon name="more-o" />{{ t('tab') }} </template>
+        <template #title> <pps-icon name="more-o" />{{ t('tab') }} </template>
         {{ t('content') }} {{ index }}
       </van-tab>
     </van-tabs>
@@ -180,7 +180,7 @@ const beforeChange = (name: number) => {
 .demo-tab {
   margin-bottom: 80vh;
 
-  .van-tab .van-icon {
+  .van-tab .pps-icon {
     margin-right: 5px;
     vertical-align: -2px;
   }

@@ -199,7 +199,7 @@ exports[`should render demo and match snapshot 1`] = `
                    aria-checked="false"
               >
                 <div class="van-checkbox__icon van-checkbox__icon--square">
-                  <i class="van-badge__wrapper van-icon van-icon-success">
+                  <i class="van-badge__wrapper pps-icon pps-icon-success">
                   </i>
                 </div>
               </div>
@@ -225,7 +225,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-checked="false"
                 >
                   <div class="van-checkbox__icon van-checkbox__icon--square">
-                    <i class="van-badge__wrapper van-icon van-icon-success">
+                    <i class="van-badge__wrapper pps-icon pps-icon-success">
                     </i>
                   </div>
                   <span class="van-checkbox__label">
@@ -238,7 +238,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-checked="false"
                 >
                   <div class="van-checkbox__icon van-checkbox__icon--square">
-                    <i class="van-badge__wrapper van-icon van-icon-success">
+                    <i class="van-badge__wrapper pps-icon pps-icon-success">
                     </i>
                   </div>
                   <span class="van-checkbox__label">
@@ -270,7 +270,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-checked="true"
                 >
                   <div class="van-radio__icon van-radio__icon--round van-radio__icon--checked">
-                    <i class="van-badge__wrapper van-icon van-icon-success">
+                    <i class="van-badge__wrapper pps-icon pps-icon-success">
                     </i>
                   </div>
                   <span class="van-radio__label">
@@ -283,7 +283,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-checked="false"
                 >
                   <div class="van-radio__icon van-radio__icon--round">
-                    <i class="van-badge__wrapper van-icon van-icon-success">
+                    <i class="van-badge__wrapper pps-icon pps-icon-success">
                     </i>
                   </div>
                   <span class="van-radio__label">
@@ -355,7 +355,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-posinset="1"
                      aria-checked="true"
                 >
-                  <i class="van-badge__wrapper van-icon van-icon-star van-rate__icon van-rate__icon--full">
+                  <i class="van-badge__wrapper pps-icon pps-icon-star van-rate__icon van-rate__icon--full">
                   </i>
                 </div>
                 <div role="radio"
@@ -365,7 +365,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-posinset="2"
                      aria-checked="true"
                 >
-                  <i class="van-badge__wrapper van-icon van-icon-star van-rate__icon van-rate__icon--full">
+                  <i class="van-badge__wrapper pps-icon pps-icon-star van-rate__icon van-rate__icon--full">
                   </i>
                 </div>
                 <div role="radio"
@@ -375,7 +375,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-posinset="3"
                      aria-checked="true"
                 >
-                  <i class="van-badge__wrapper van-icon van-icon-star van-rate__icon van-rate__icon--full">
+                  <i class="van-badge__wrapper pps-icon pps-icon-star van-rate__icon van-rate__icon--full">
                   </i>
                 </div>
                 <div role="radio"
@@ -385,7 +385,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-posinset="4"
                      aria-checked="false"
                 >
-                  <i class="van-badge__wrapper van-icon van-icon-star-o van-rate__icon">
+                  <i class="van-badge__wrapper pps-icon pps-icon-star-o van-rate__icon">
                   </i>
                 </div>
                 <div role="radio"
@@ -395,7 +395,7 @@ exports[`should render demo and match snapshot 1`] = `
                      aria-posinset="5"
                      aria-checked="false"
                 >
-                  <i class="van-badge__wrapper van-icon van-icon-star-o van-rate__icon">
+                  <i class="van-badge__wrapper pps-icon pps-icon-star-o van-rate__icon">
                   </i>
                 </div>
               </div>
@@ -455,7 +455,7 @@ exports[`should render demo and match snapshot 1`] = `
                            style="object-fit: cover;"
                       >
                       <div class="van-image__loading">
-                        <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+                        <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
                         </i>
                       </div>
                     </div>
@@ -464,12 +464,12 @@ exports[`should render demo and match snapshot 1`] = `
                          tabindex="0"
                          aria-label="Delete"
                     >
-                      <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+                      <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
                       </i>
                     </div>
                   </div>
                   <div class="van-uploader__upload">
-                    <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+                    <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
                     </i>
                     <input type="file"
                            class="van-uploader__input"
@@ -505,7 +505,7 @@ exports[`should render demo and match snapshot 1`] = `
             >
           </div>
         </div>
-        <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
         </i>
       </div>
       <div class="van-cell van-cell--clickable van-field"
@@ -531,7 +531,7 @@ exports[`should render demo and match snapshot 1`] = `
             >
           </div>
         </div>
-        <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
         </i>
       </div>
       <div class="van-cell van-cell--clickable van-field"
@@ -557,7 +557,7 @@ exports[`should render demo and match snapshot 1`] = `
             >
           </div>
         </div>
-        <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
         </i>
       </div>
       <div class="van-cell van-cell--clickable van-field"
@@ -583,7 +583,7 @@ exports[`should render demo and match snapshot 1`] = `
             >
           </div>
         </div>
-        <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
         </i>
       </div>
     </div>

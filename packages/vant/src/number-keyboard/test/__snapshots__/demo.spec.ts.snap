@@ -11,7 +11,7 @@ exports[`should render demo and match snapshot 1`] = `
         Show Default Keyboard
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -23,7 +23,7 @@ exports[`should render demo and match snapshot 1`] = `
         Show Keyboard With Sidebar
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -35,7 +35,7 @@ exports[`should render demo and match snapshot 1`] = `
         Show IdNumber Keyboard
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -47,7 +47,7 @@ exports[`should render demo and match snapshot 1`] = `
         Show Keyboard With Title
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -59,7 +59,7 @@ exports[`should render demo and match snapshot 1`] = `
         Show Keyboard With Multiple ExtraKey
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -71,7 +71,7 @@ exports[`should render demo and match snapshot 1`] = `
         Show Keyboard With Random Key Order
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable van-field"

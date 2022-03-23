@@ -23,7 +23,7 @@ app.use(Icon);
 通过 `name` 属性来指定需要使用的图标，Vant 内置了一套图标库（见右侧示例），可以直接传入对应的名称来使用。
 
 ```html
-<van-icon name="chat-o" />
+<pps-icon name="chat-o" />
 ```
 
 ### 使用图片 URL
@@ -31,7 +31,7 @@ app.use(Icon);
 你也可以直接在 `name` 属性中传入一个图片 URL 来作为图标。
 
 ```html
-<van-icon name="https://b.yzcdn.cn/vant/icon-demo-1126.png" />
+<pps-icon name="https://b.yzcdn.cn/vant/icon-demo-1126.png" />
 ```
 
 ### 徽标提示
@@ -39,9 +39,9 @@ app.use(Icon);
 设置 `dot` 属性后，会在图标右上角展示一个小红点；设置 `badge` 属性后，会在图标右上角展示相应的徽标。
 
 ```html
-<van-icon name="chat-o" dot />
-<van-icon name="chat-o" badge="9" />
-<van-icon name="chat-o" badge="99+" />
+<pps-icon name="chat-o" dot />
+<pps-icon name="chat-o" badge="9" />
+<pps-icon name="chat-o" badge="99+" />
 ```
 
 ### 图标颜色
@@ -49,8 +49,8 @@ app.use(Icon);
 通过 `color` 属性来设置图标的颜色。
 
 ```html
-<van-icon name="cart-o" color="#1989fa" />
-<van-icon name="fire-o" color="#ee0a24" />
+<pps-icon name="cart-o" color="#1989fa" />
+<pps-icon name="fire-o" color="#ee0a24" />
 ```
 
 ### 图标大小
@@ -59,9 +59,9 @@ app.use(Icon);
 
 ```html
 <!-- 不指定单位，默认使用 px -->
-<van-icon name="chat-o" size="40" />
+<pps-icon name="chat-o" size="40" />
 <!-- 指定使用 rem 单位 -->
-<van-icon name="chat-o" size="3rem" />
+<pps-icon name="chat-o" size="3rem" />
 ```
 
 ### 自定义图标
@@ -86,7 +86,7 @@ app.use(Icon);
 
 ```html
 <!-- 通过 class-prefix 指定类名为 my-icon -->
-<van-icon class-prefix="my-icon" name="extra" />
+<pps-icon class-prefix="my-icon" name="extra" />
 ```
 
 ## API
@@ -101,7 +101,7 @@ app.use(Icon);
 | badge-props `v3.2.8` | 自定义徽标的属性，传入的对象会被透传给 [Badge 组件的 props](#/zh-CN/badge#props) | _BadgeProps_ | - |
 | color | 图标颜色 | _string_ | `inherit` |
 | size | 图标大小，如 `20px` `2em`，默认单位为 `px` | _number \| string_ | `inherit` |
-| class-prefix | 类名前缀，用于使用自定义图标 | _string_ | `van-icon` |
+| class-prefix | 类名前缀，用于使用自定义图标 | _string_ | `pps-icon` |
 | tag | 根节点对应的 HTML 标签名 | _string_ | `i` |
 
 ### Events

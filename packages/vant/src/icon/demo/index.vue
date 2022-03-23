@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import VanIcon from '..';
+import PpsIcon from '..';
 import VanTabs from '../../tabs';
 import VanTab from '../../tab';
 import VanRow from '../../row';
@@ -68,7 +68,7 @@ const demoImage = 'https://b.yzcdn.cn/vant/icon-demo-1126.png';
 const cdnSvg = 'https://cdn.ipampas.com/common/images/svgs/';
 
 const copy = (icon: string, option: Record<string, unknown> = {}) => {
-  let tag = `<van-icon name="${icon}"`;
+  let tag = `<pps-icon name="${icon}"`;
   if ('dot' in option) {
     tag = `${tag} ${option.dot ? 'dot' : ''}`;
   }
@@ -99,10 +99,10 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
       <demo-block :title="t('basicUsage')">
         <van-row>
           <van-col span="6" @click="copy(demoIcon)">
-            <van-icon :name="demoIcon" />
+            <pps-icon :name="demoIcon" />
           </van-col>
           <van-col span="6" @click="copy(demoImage)">
-            <van-icon :name="demoImage" />
+            <pps-icon :name="demoImage" />
           </van-col>
         </van-row>
       </demo-block>
@@ -110,13 +110,13 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
       <demo-block :title="t('badge')">
         <van-row>
           <van-col span="6" @click="copy(demoIcon, { dot: true })">
-            <van-icon :name="demoIcon" dot />
+            <pps-icon :name="demoIcon" dot />
           </van-col>
           <van-col span="6" @click="copy(demoIcon, { badge: '9' })">
-            <van-icon :name="demoIcon" badge="9" />
+            <pps-icon :name="demoIcon" badge="9" />
           </van-col>
           <van-col span="6" @click="copy(demoIcon, { badge: '99+' })">
-            <van-icon :name="demoIcon" badge="99+" />
+            <pps-icon :name="demoIcon" badge="99+" />
           </van-col>
         </van-row>
       </demo-block>
@@ -124,10 +124,10 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
       <demo-block :title="t('color')">
         <van-row>
           <van-col span="6" @click="copy(demoIcon, { color: '#1989fa' })">
-            <van-icon name="cart-o" color="#1989fa" />
+            <pps-icon name="cart-o" color="#1989fa" />
           </van-col>
           <van-col span="6" @click="copy(demoIcon, { color: '#ee0a24' })">
-            <van-icon name="fire-o" color="#ee0a24" />
+            <pps-icon name="fire-o" color="#ee0a24" />
           </van-col>
         </van-row>
       </demo-block>
@@ -135,10 +135,10 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
       <demo-block :title="t('size')">
         <van-row>
           <van-col span="6" @click="copy(demoIcon, { size: '40' })">
-            <van-icon :name="demoIcon" size="40" />
+            <pps-icon :name="demoIcon" size="40" />
           </van-col>
           <van-col span="6" @click="copy(demoIcon, { size: '3rem' })">
-            <van-icon :name="demoIcon" size="3rem" />
+            <pps-icon :name="demoIcon" size="3rem" />
           </van-col>
         </van-row>
       </demo-block>
@@ -152,7 +152,7 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
           span="6"
           @click="copy(icon)"
         >
-          <van-icon :name="icon" />
+          <pps-icon :name="icon" />
           <span>{{ icon }}</span>
         </van-col>
       </van-row>
@@ -166,7 +166,7 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
           span="6"
           @click="copy(icon)"
         >
-          <van-icon :name="icon" />
+          <pps-icon :name="icon" />
           <span>{{ icon }}</span>
         </van-col>
       </van-row>
@@ -180,7 +180,7 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
           span="6"
           @click="copy(icon)"
         >
-          <van-icon :name="icon" />
+          <pps-icon :name="icon" />
           <span>{{ icon }}</span>
         </van-col>
       </van-row>
@@ -197,7 +197,7 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
           span="8"
           @click="copy(`${cdnSvg}${icon}.png`)"
         >
-          <van-icon :name="`${cdnSvg}${icon}.png`" />
+          <pps-icon :name="`${cdnSvg}${icon}.png`" />
           <span>{{ icon }}</span>
         </van-col>
       </van-row>
@@ -242,7 +242,7 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
     }
   }
 
-  .van-icon {
+  .pps-icon {
     margin: 16px 0 16px;
     color: var(--van-text-color);
     font-size: 32px;

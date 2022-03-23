@@ -88,7 +88,7 @@ const nextStep = () => {
 <style lang="less">
 .demo-steps {
   .steps-success,
-  .van-icon-location {
+  .pps-icon-location {
     color: var(--van-green);
   }
 

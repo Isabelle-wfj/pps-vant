@@ -69,7 +69,7 @@ exports[`should render AddressEdit correctly 1`] = `
           >
         </div>
       </div>
-      <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
       </i>
     </div>
     <div class="van-cell van-field van-address-edit-detail">
@@ -170,7 +170,7 @@ exports[`should render AddressEdit with props correctly 1`] = `
           >
         </div>
       </div>
-      <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
       </i>
     </div>
     <div class="van-cell van-field van-address-edit-detail">
@@ -296,7 +296,7 @@ exports[`should valid area code and render error message correctly 1`] = `
       Please select a receiving area
     </div>
   </div>
-  <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+  <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
   </i>
 </div>
 `;

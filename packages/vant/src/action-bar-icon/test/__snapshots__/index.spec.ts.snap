@@ -5,7 +5,7 @@ exports[`should render default slot correctly 1`] = `
      class="van-action-bar-icon"
      tabindex="0"
 >
-  <div class="van-badge__wrapper van-icon van-icon-undefined van-action-bar-icon__icon">
+  <div class="van-badge__wrapper pps-icon pps-icon-undefined van-action-bar-icon__icon">
   </div>
   Content
 </div>

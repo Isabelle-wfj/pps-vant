@@ -163,7 +163,7 @@ test('should show search result after focusing to address detail', async () => {
   const input = field.element;
   await field.trigger('focus');
 
-  const items = wrapper.findAll('.van-icon-location-o');
+  const items = wrapper.findAll('.pps-icon-location-o');
   items[0].element.parentNode.click();
   await later();
   expect(input.value).toEqual('address1 name1');

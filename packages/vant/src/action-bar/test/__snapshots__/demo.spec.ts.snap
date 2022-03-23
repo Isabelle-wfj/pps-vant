@@ -7,7 +7,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-chat-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-chat-o van-action-bar-icon__icon">
       </div>
       Icon1
     </div>
@@ -15,7 +15,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-cart-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-cart-o van-action-bar-icon__icon">
       </div>
       Icon2
     </div>
@@ -23,7 +23,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-shop-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-shop-o van-action-bar-icon__icon">
       </div>
       Icon3
     </div>
@@ -44,7 +44,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-chat-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-chat-o van-action-bar-icon__icon">
         <div class="van-badge van-badge--top-right van-badge--dot van-badge--fixed">
         </div>
       </div>
@@ -54,7 +54,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-cart-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-cart-o van-action-bar-icon__icon">
         <div class="van-badge van-badge--top-right van-badge--fixed">
           5
         </div>
@@ -65,7 +65,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-shop-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-shop-o van-action-bar-icon__icon">
         <div class="van-badge van-badge--top-right van-badge--fixed">
           12
         </div>
@@ -98,7 +98,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-chat-o van-action-bar-icon__icon"
+      <div class="van-badge__wrapper pps-icon pps-icon-chat-o van-action-bar-icon__icon"
            style="color: rgb(238, 10, 36);"
       >
       </div>
@@ -108,7 +108,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-cart-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-cart-o van-action-bar-icon__icon">
       </div>
       Icon2
     </div>
@@ -116,7 +116,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-star van-action-bar-icon__icon"
+      <div class="van-badge__wrapper pps-icon pps-icon-star van-action-bar-icon__icon"
            style="color: rgb(255, 80, 0);"
       >
       </div>
@@ -148,7 +148,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-chat-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-chat-o van-action-bar-icon__icon">
       </div>
       Icon1
     </div>
@@ -156,7 +156,7 @@ exports[`should render demo and match snapshot 1`] = `
          class="van-action-bar-icon"
          tabindex="0"
     >
-      <div class="van-badge__wrapper van-icon van-icon-cart-o van-action-bar-icon__icon">
+      <div class="van-badge__wrapper pps-icon pps-icon-cart-o van-action-bar-icon__icon">
       </div>
       Icon2
     </div>

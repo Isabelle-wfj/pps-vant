@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import VanBadge from '..';
-import VanIcon from '../../icon';
+import PpsIcon from '../../icon';
 import { useTranslate } from '../../../docs/site/use-translate';
 
 const t = useTranslate({
@@ -65,19 +65,19 @@ const t = useTranslate({
     <van-badge>
       <div class="child" />
       <template #content>
-        <van-icon name="success" class="badge-icon" />
+        <pps-icon name="success" class="badge-icon" />
       </template>
     </van-badge>
     <van-badge>
       <div class="child" />
       <template #content>
-        <van-icon name="cross" class="badge-icon" />
+        <pps-icon name="cross" class="badge-icon" />
       </template>
     </van-badge>
     <van-badge>
       <div class="child" />
       <template #content>
-        <van-icon name="down" class="badge-icon" />
+        <pps-icon name="down" class="badge-icon" />
       </template>
     </van-badge>
   </demo-block>

@@ -16,7 +16,7 @@ exports[`should render icon in the right side when setting icon-position to righ
         class="van-button van-button--default van-button--normal"
 >
   <div class="van-button__content">
-    <i class="van-badge__wrapper van-icon van-icon-plus van-button__icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-plus van-button__icon">
     </i>
   </div>
 </button>

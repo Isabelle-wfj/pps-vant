@@ -121,7 +121,7 @@ Use `teleport` prop to specify mount location.
 | close-icon | Close icon name | _string_ | `cross` |
 | close-icon-position | Close Icon Position，can be set to `top-left` `bottom-left` `bottom-right` | _string_ | `top-right` |
 | before-close `v3.1.4` | Callback function before close | _(action: string) => boolean \| Promise\<boolean\>_ | - |
-| icon-prefix `v3.0.18` | Icon className prefix | _string_ | `van-icon` |
+| icon-prefix `v3.0.18` | Icon className prefix | _string_ | `pps-icon` |
 | transition | Transition, equivalent to `name` prop of [transition](https://v3.vuejs.org/api/built-in-components.html#transition) | _string_ | - |
 | transition-appear | Whether to apply transition on initial render | _boolean_ | `false` |
 | teleport | Specifies a target element where Popup will be mounted | _string \| Element_ | - |

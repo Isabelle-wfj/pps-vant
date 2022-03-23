@@ -10,7 +10,7 @@ exports[`should adjust label position when using label-position prop 1`] = `
     Label
   </span>
   <div class="van-checkbox__icon van-checkbox__icon--round">
-    <i class="van-badge__wrapper van-icon van-icon-success">
+    <i class="van-badge__wrapper pps-icon pps-icon-success">
     </i>
   </div>
 </div>

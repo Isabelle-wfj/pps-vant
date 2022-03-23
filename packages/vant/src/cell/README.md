@@ -111,7 +111,7 @@ app.use(CellGroup);
 <van-cell title="Title" icon="shop-o">
   <!-- Use the right-icon slot to customize the right icon -->
   <template #right-icon>
-    <van-icon name="search" class="search-icon" />
+    <pps-icon name="search" class="search-icon" />
   </template>
 </van-cell>
 
@@ -153,7 +153,7 @@ app.use(CellGroup);
 | label | Description below the title | _string_ | - |
 | size | Size，can be set to `large` | _string_ | - |
 | icon | Left Icon | _string_ | - |
-| icon-prefix | Icon className prefix | _string_ | `van-icon` |
+| icon-prefix | Icon className prefix | _string_ | `pps-icon` |
 | border | Whether to show inner border | _boolean_ | `true` |
 | center | Whether to center content vertically | _boolean_ | `true` |
 | url | Link URL | _string_ | - |

@@ -90,7 +90,7 @@ const themeVars = {
 
 <style lang="less">
 .demo-collapse {
-  .van-icon-question-o {
+  .pps-icon-question-o {
     margin-left: 5px;
     color: var(--van-blue);
     font-size: 15px;

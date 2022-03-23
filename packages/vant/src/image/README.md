@@ -103,7 +103,7 @@ app.use(Lazyload);
 | error-icon | Error icon | _string_ | `photo-fail` |
 | loading-icon | Loading icon | _string_ | `photo` |
 | icon-size `v3.0.11` | Icon size | _number \| string_ | `32px` |
-| icon-prefix | Icon className prefix | _string_ | `van-icon` |
+| icon-prefix | Icon className prefix | _string_ | `pps-icon` |
 
 ### fit optional value
 

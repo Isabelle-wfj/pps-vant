@@ -61,7 +61,7 @@ test('should change checked color when using checked-color prop', () => {
     },
   });
 
-  const icons = wrapper.findAll('.van-icon');
+  const icons = wrapper.findAll('.pps-icon');
   expect(icons[0].style.backgroundColor).toEqual('black');
   expect(icons[1].style.backgroundColor).toEqual('white');
 });

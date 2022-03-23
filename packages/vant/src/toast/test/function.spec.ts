@@ -42,7 +42,7 @@ test('icon prop', async () => {
   Toast({ icon: 'star-o' });
 
   await later();
-  expect(document.querySelector('.van-icon-star-o')).toBeTruthy();
+  expect(document.querySelector('.pps-icon-star-o')).toBeTruthy();
 });
 
 test('icon-prefix prop', async () => {

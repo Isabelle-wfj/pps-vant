@@ -20,7 +20,7 @@ exports[`should render demo and match snapshot 1`] = `
           Step2
         </div>
         <div class="van-step__circle-container">
-          <i class="van-badge__wrapper van-icon van-icon-checked van-step__icon van-step__icon--active">
+          <i class="van-badge__wrapper pps-icon pps-icon-checked van-step__icon van-step__icon--active">
           </i>
         </div>
         <div class="van-step__line">
@@ -68,7 +68,7 @@ exports[`should render demo and match snapshot 1`] = `
           Step1
         </div>
         <div class="van-step__circle-container">
-          <i class="van-badge__wrapper van-icon van-icon-arrow van-step__icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-arrow van-step__icon">
           </i>
         </div>
         <div class="van-step__line"
@@ -83,7 +83,7 @@ exports[`should render demo and match snapshot 1`] = `
           Step2
         </div>
         <div class="van-step__circle-container">
-          <i class="van-badge__wrapper van-icon van-icon-success van-step__icon van-step__icon--active"
+          <i class="van-badge__wrapper pps-icon pps-icon-success van-step__icon van-step__icon--active"
              style="color: rgb(51, 136, 255);"
           >
           </i>
@@ -96,7 +96,7 @@ exports[`should render demo and match snapshot 1`] = `
           Step3
         </div>
         <div class="van-step__circle-container">
-          <i class="van-badge__wrapper van-icon van-icon-arrow van-step__icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-arrow van-step__icon">
           </i>
         </div>
         <div class="van-step__line">
@@ -107,7 +107,7 @@ exports[`should render demo and match snapshot 1`] = `
           Step4
         </div>
         <div class="van-step__circle-container">
-          <i class="van-badge__wrapper van-icon van-icon-arrow van-step__icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-arrow van-step__icon">
           </i>
         </div>
         <div class="van-step__line">
@@ -129,7 +129,7 @@ exports[`should render demo and match snapshot 1`] = `
           </p>
         </div>
         <div class="van-step__circle-container">
-          <i class="van-badge__wrapper van-icon van-icon-checked van-step__icon van-step__icon--active">
+          <i class="van-badge__wrapper pps-icon pps-icon-checked van-step__icon van-step__icon--active">
           </i>
         </div>
         <div class="van-step__line">

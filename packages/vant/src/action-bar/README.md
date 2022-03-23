@@ -99,7 +99,7 @@ Use `badge` prop to show badge in icon.
 | icon | Icon | _string_ | - |
 | color | Icon color | _string_ | `#141414` |
 | icon-class | Icon class name | _string \| Array \| object_ | `''` |
-| icon-prefix `v3.0.17` | Icon className prefix | _string_ | `van-icon` |
+| icon-prefix `v3.0.17` | Icon className prefix | _string_ | `pps-icon` |
 | dot | Whether to show red dot | _boolean_ | - |
 | badge | Content of the badge | _number \| string_ | - |
 | badge-props `v3.2.8` | Props of Badge，see [Badge - props](#/en-US/badge#props) | _BadgeProps_ | - |

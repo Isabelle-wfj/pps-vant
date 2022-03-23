@@ -216,7 +216,7 @@ exports[`should render demo and match snapshot 1`] = `
           class="van-button van-button--primary van-button--normal"
   >
     <div class="van-button__content">
-      <i class="van-badge__wrapper van-icon van-icon-plus van-button__icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-plus van-button__icon">
       </i>
     </div>
   </button>
@@ -224,7 +224,7 @@ exports[`should render demo and match snapshot 1`] = `
           class="van-button van-button--primary van-button--normal"
   >
     <div class="van-button__content">
-      <i class="van-badge__wrapper van-icon van-icon-plus van-button__icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-plus van-button__icon">
       </i>
       <span class="van-button__text">
         Button
@@ -235,8 +235,8 @@ exports[`should render demo and match snapshot 1`] = `
           class="van-button van-button--primary van-button--normal van-button--plain"
   >
     <div class="van-button__content">
-      <i class="van-badge__wrapper van-icon van-button__icon">
-        <img class="van-icon__image"
+      <i class="van-badge__wrapper pps-icon van-button__icon">
+        <img class="pps-icon__image"
              src="https://img.yzcdn.cn/vant/user-active.png"
         >
       </i>

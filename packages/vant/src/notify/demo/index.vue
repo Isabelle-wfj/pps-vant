@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import VanCell from '../../cell';
-import VanIcon from '../../icon';
+import PpsIcon from '../../icon';
 import { ref } from 'vue';
 import { Notify, type NotifyType } from '..';
 import { useTranslate } from '../../../docs/site/use-translate';
@@ -109,7 +109,7 @@ const showComponentCall = () => {
     <van-cell is-link :title="t('componentCall')" @click="showComponentCall" />
 
     <van-notify v-model:show="show" type="success">
-      <van-icon name="bell" style="margin-right: 4px" />
+      <pps-icon name="bell" style="margin-right: 4px" />
       <span>{{ t('content') }}</span>
     </van-notify>
   </demo-block>

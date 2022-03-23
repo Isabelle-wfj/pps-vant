@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import VanPagination from '..';
-import VanIcon from '../../icon';
+import PpsIcon from '../../icon';
 import { ref } from 'vue';
 import { useTranslate } from '../../../docs/site/use-translate';
 
@@ -67,10 +67,10 @@ const currentPage4 = ref(1);
       :show-page-size="5"
     >
       <template #prev-text>
-        <van-icon name="arrow-left" />
+        <pps-icon name="arrow-left" />
       </template>
       <template #next-text>
-        <van-icon name="arrow" />
+        <pps-icon name="arrow" />
       </template>
       <template #page="{ text }">{{ text }}</template>
     </van-pagination>

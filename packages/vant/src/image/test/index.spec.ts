@@ -89,7 +89,7 @@ test('should change error icon when using error-icon prop', async () => {
   });
 
   await wrapper.find('img').trigger('error');
-  expect(wrapper.find('.van-icon-error').exists()).toBeTruthy();
+  expect(wrapper.find('.pps-icon-error').exists()).toBeTruthy();
 });
 
 test('should change loading icon when using loading-icon prop', () => {
@@ -99,7 +99,7 @@ test('should change loading icon when using loading-icon prop', () => {
     },
   });
 
-  expect(wrapper.find('.van-icon-success').exists()).toBeTruthy();
+  expect(wrapper.find('.pps-icon-success').exists()).toBeTruthy();
 });
 
 test('should apply icon-prefix prop to error-icon', async () => {

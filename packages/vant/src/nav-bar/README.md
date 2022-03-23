@@ -79,7 +79,7 @@ export default {
 ```html
 <van-nav-bar title="Title" left-text="Back" left-arrow>
   <template #right>
-    <van-icon name="search" />
+    <pps-icon name="search" />
   </template>
 </van-nav-bar>
 ```

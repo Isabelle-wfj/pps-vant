@@ -153,7 +153,7 @@ Use title slot to custom tab title.
 ```html
 <van-tabs v-model:active="active">
   <van-tab v-for="index in 2">
-    <template #title> <van-icon name="more-o" />tab </template>
+    <template #title> <pps-icon name="more-o" />tab </template>
     content {{ index }}
   </van-tab>
 </van-tabs>

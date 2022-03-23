@@ -70,7 +70,7 @@ test('should change inactive icon when using inactive-icon prop', () => {
   });
 
   const steps = wrapper.findAll('.van-step');
-  expect(steps[1].find('.van-icon-foo').exists()).toBeTruthy();
+  expect(steps[1].find('.pps-icon-foo').exists()).toBeTruthy();
   expect(steps[1].html()).toMatchSnapshot();
 });
 
@@ -87,7 +87,7 @@ test('should change finish icon when using finish-icon prop', () => {
   });
 
   const firstStep = wrapper.find('.van-step');
-  expect(firstStep.find('.van-icon-foo').exists()).toBeTruthy();
+  expect(firstStep.find('.pps-icon-foo').exists()).toBeTruthy();
   expect(firstStep.html()).toMatchSnapshot();
 });
 

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should change clear icon when using clear-icon prop 1`] = `
-<i class="van-badge__wrapper van-icon van-icon-cross van-field__clear">
+<i class="van-badge__wrapper pps-icon pps-icon-cross van-field__clear">
 </i>
 `;
 

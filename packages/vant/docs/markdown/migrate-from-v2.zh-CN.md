@@ -121,10 +121,10 @@ GoodsAction 商品导航组件重命名为 **ActionBar 行动栏**。
 
 ```html
 <!-- Vant 2 -->
-<van-icon info="5" />
+<pps-icon info="5" />
 
 <!-- Vant 3 -->
-<van-icon badge="5" />
+<pps-icon badge="5" />
 ```
 
 ### 重命名 get-container 属性

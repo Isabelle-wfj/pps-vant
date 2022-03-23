@@ -6,7 +6,7 @@ exports[`should change finish icon when using finish-icon prop 1`] = `
     A
   </div>
   <div class="van-step__circle-container">
-    <i class="van-badge__wrapper van-icon van-icon-foo van-step__icon van-step__icon--finish">
+    <i class="van-badge__wrapper pps-icon pps-icon-foo van-step__icon van-step__icon--finish">
     </i>
   </div>
   <div class="van-step__line">
@@ -22,7 +22,7 @@ exports[`should change inactive color when using inactive-color prop 1`] = `
         A
       </div>
       <div class="van-step__circle-container">
-        <i class="van-badge__wrapper van-icon van-icon-checked van-step__icon van-step__icon--active">
+        <i class="van-badge__wrapper pps-icon pps-icon-checked van-step__icon van-step__icon--active">
         </i>
       </div>
       <div class="van-step__line"
@@ -57,7 +57,7 @@ exports[`should change inactive icon when using inactive-icon prop 1`] = `
     B
   </div>
   <div class="van-step__circle-container">
-    <i class="van-badge__wrapper van-icon van-icon-foo van-step__icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-foo van-step__icon">
     </i>
   </div>
   <div class="van-step__line">

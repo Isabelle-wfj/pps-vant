@@ -51,7 +51,7 @@ export default defineComponent({
       return (
         <div class={bem('weekdays')}>
           {renderWeekDays.map((text) => (
-            <span class={bem('weekday')}>{text}</span>
+            <span class={bem('weekday')}>{'周' + text}</span>
           ))}
         </div>
       );

@@ -72,12 +72,12 @@ exports[`should render demo and match snapshot 1`] = `
       <div>
         <div class="van-row">
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon van-icon-chat-o">
+            <i class="van-badge__wrapper pps-icon pps-icon-chat-o">
             </i>
           </div>
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon">
-              <img class="van-icon__image"
+            <i class="van-badge__wrapper pps-icon">
+              <img class="pps-icon__image"
                    src="https://b.yzcdn.cn/vant/icon-demo-1126.png"
               >
             </i>
@@ -87,20 +87,20 @@ exports[`should render demo and match snapshot 1`] = `
       <div>
         <div class="van-row">
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon van-icon-chat-o">
+            <i class="van-badge__wrapper pps-icon pps-icon-chat-o">
               <div class="van-badge van-badge--top-right van-badge--dot van-badge--fixed">
               </div>
             </i>
           </div>
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon van-icon-chat-o">
+            <i class="van-badge__wrapper pps-icon pps-icon-chat-o">
               <div class="van-badge van-badge--top-right van-badge--fixed">
                 9
               </div>
             </i>
           </div>
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon van-icon-chat-o">
+            <i class="van-badge__wrapper pps-icon pps-icon-chat-o">
               <div class="van-badge van-badge--top-right van-badge--fixed">
                 99+
               </div>
@@ -111,13 +111,13 @@ exports[`should render demo and match snapshot 1`] = `
       <div>
         <div class="van-row">
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon van-icon-cart-o"
+            <i class="van-badge__wrapper pps-icon pps-icon-cart-o"
                style="color: rgb(25, 137, 250);"
             >
             </i>
           </div>
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon van-icon-fire-o"
+            <i class="van-badge__wrapper pps-icon pps-icon-fire-o"
                style="color: rgb(238, 10, 36);"
             >
             </i>
@@ -127,13 +127,13 @@ exports[`should render demo and match snapshot 1`] = `
       <div>
         <div class="van-row">
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon van-icon-chat-o"
+            <i class="van-badge__wrapper pps-icon pps-icon-chat-o"
                style="font-size: 40px;"
             >
             </i>
           </div>
           <div class="van-col van-col--6">
-            <i class="van-badge__wrapper van-icon van-icon-chat-o"
+            <i class="van-badge__wrapper pps-icon pps-icon-chat-o"
                style="font-size: 3rem;"
             >
             </i>

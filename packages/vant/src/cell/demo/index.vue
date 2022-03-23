@@ -2,7 +2,7 @@
 import VanCellGroup from '../../cell-group';
 import VanCell from '..';
 import VanTag from '../../tag';
-import VanIcon from '../../icon';
+import PpsIcon from '../../icon';
 import { useTranslate } from '../../../docs/site/use-translate';
 
 const t = useTranslate({
@@ -118,7 +118,7 @@ const t = useTranslate({
 
     <van-cell icon="shop-o" :title="t('cell')">
       <template #right-icon>
-        <van-icon name="search" class="search-icon" />
+        <pps-icon name="search" class="search-icon" />
       </template>
     </van-cell>
   </demo-block>

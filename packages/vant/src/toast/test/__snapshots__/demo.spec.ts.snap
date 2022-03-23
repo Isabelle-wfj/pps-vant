@@ -11,7 +11,7 @@ exports[`should render demo and match snapshot 1`] = `
         Text
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -23,7 +23,7 @@ exports[`should render demo and match snapshot 1`] = `
         Loading
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -35,7 +35,7 @@ exports[`should render demo and match snapshot 1`] = `
         Success
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -47,7 +47,7 @@ exports[`should render demo and match snapshot 1`] = `
         Fail
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
 </div>
@@ -61,7 +61,7 @@ exports[`should render demo and match snapshot 1`] = `
         Custom Icon
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -73,7 +73,7 @@ exports[`should render demo and match snapshot 1`] = `
         Custom Image
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -85,7 +85,7 @@ exports[`should render demo and match snapshot 1`] = `
         Loading Type
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
 </div>
@@ -99,7 +99,7 @@ exports[`should render demo and match snapshot 1`] = `
         Top
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -111,7 +111,7 @@ exports[`should render demo and match snapshot 1`] = `
         Bottom
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
 </div>
@@ -125,7 +125,7 @@ exports[`should render demo and match snapshot 1`] = `
         Update Message
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
 </div>

@@ -123,7 +123,7 @@ exports[`should render demo and match snapshot 1`] = `
         <button type="button"
                 disabled
         >
-          <i class="van-badge__wrapper van-icon van-icon-arrow-left">
+          <i class="van-badge__wrapper pps-icon pps-icon-arrow-left">
           </i>
         </button>
       </li>
@@ -156,7 +156,7 @@ exports[`should render demo and match snapshot 1`] = `
       </li>
       <li class="van-pagination__item van-pagination__item--next van-hairline--surround">
         <button type="button">
-          <i class="van-badge__wrapper van-icon van-icon-arrow">
+          <i class="van-badge__wrapper pps-icon pps-icon-arrow">
           </i>
         </button>
       </li>

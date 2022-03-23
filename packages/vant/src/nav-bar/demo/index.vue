@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import VanNavBar from '..';
-import VanIcon from '../../icon';
+import PpsIcon from '../../icon';
 import { useTranslate } from '../../../docs/site/use-translate';
 import { Toast } from '../../toast';
 
@@ -49,7 +49,7 @@ const onClickRight = () => Toast(t('button'));
   <demo-block :title="t('useSlot')">
     <van-nav-bar :title="t('title')" :left-text="t('back')" left-arrow>
       <template #right>
-        <van-icon name="search" size="18" />
+        <pps-icon name="search" size="18" />
       </template>
     </van-nav-bar>
   </demo-block>

@@ -160,7 +160,7 @@ Toast.resetDefaultOptions('loading');
 | message | Message | _string_ | `''` |
 | icon | Custom icon | _string_ | - |
 | iconSize | Custom icon size | _number \| string_ | `36px` |
-| iconPrefix | Icon className prefix | _string_ | `van-icon` |
+| iconPrefix | Icon className prefix | _string_ | `pps-icon` |
 | overlay | Whether to show overlay | _boolean_ | `false` |
 | forbidClick | Whether to forbid click background | _boolean_ | `false` |
 | closeOnClick | Whether to close after clicked | _boolean_ | `false` |

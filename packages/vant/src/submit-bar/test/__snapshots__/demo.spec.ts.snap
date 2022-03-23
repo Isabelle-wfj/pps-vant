@@ -31,7 +31,7 @@ exports[`should render demo and match snapshot 1`] = `
 <div>
   <div class="van-submit-bar van-safe-area-bottom">
     <div class="van-submit-bar__tip">
-      <i class="van-badge__wrapper van-icon van-icon-info-o van-submit-bar__tip-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-info-o van-submit-bar__tip-icon">
       </i>
       <span class="van-submit-bar__tip-text">
         Some tips
@@ -116,7 +116,7 @@ exports[`should render demo and match snapshot 1`] = `
            aria-checked="true"
       >
         <div class="van-checkbox__icon van-checkbox__icon--round van-checkbox__icon--checked">
-          <i class="van-badge__wrapper van-icon van-icon-success">
+          <i class="van-badge__wrapper pps-icon pps-icon-success">
           </i>
         </div>
         <span class="van-checkbox__label">

@@ -24,7 +24,7 @@ exports[`should render default slot correctly 1`] = `
        class="van-image__img"
   >
   <div class="van-image__loading">
-    <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
     </i>
   </div>
   Custom Default
@@ -35,7 +35,7 @@ exports[`should render loading placeholder when using lazy-load prop 1`] = `
 <div class="van-image">
   <img class="van-image__img">
   <div class="van-image__loading">
-    <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
     </i>
   </div>
 </div>
@@ -44,7 +44,7 @@ exports[`should render loading placeholder when using lazy-load prop 1`] = `
 exports[`should watch src and reset 1`] = `
 <div class="van-image">
   <div class="van-image__loading">
-    <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
     </i>
   </div>
 </div>

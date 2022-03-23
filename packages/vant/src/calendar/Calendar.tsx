@@ -488,9 +488,8 @@ export default defineComponent({
         const text = disabled ? props.confirmDisabledText : props.confirmText;
         return (
           <Button
-            round
             block
-            type="danger"
+            type="primary"
             color={props.color}
             class={bem('confirm')}
             disabled={disabled}
@@ -560,6 +559,7 @@ export default defineComponent({
           <Popup
             v-slots={{ default: renderCalendar }}
             show={props.show}
+            border={false}
             class={bem('popup')}
             round={props.round}
             position={props.position}

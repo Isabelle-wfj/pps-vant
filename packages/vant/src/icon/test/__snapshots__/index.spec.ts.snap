@@ -7,7 +7,7 @@ exports[`should render badge correctly 1`] = `
 `;
 
 exports[`should render default slot correctly 1`] = `
-<i class="van-badge__wrapper van-icon van-icon-success">
+<i class="van-badge__wrapper pps-icon pps-icon-success">
   Default Slot
 </i>
 `;
@@ -18,21 +18,21 @@ exports[`should render dot correctly 1`] = `
 `;
 
 exports[`should render icon with builtin icon name correctly 1`] = `
-<i class="van-badge__wrapper van-icon van-icon-success">
+<i class="van-badge__wrapper pps-icon pps-icon-success">
 </i>
 `;
 
 exports[`should render icon with local image correctly 1`] = `
-<i class="van-badge__wrapper van-icon">
-  <img class="van-icon__image"
+<i class="van-badge__wrapper pps-icon">
+  <img class="pps-icon__image"
        src="/assets/icon.jpg"
   >
 </i>
 `;
 
 exports[`should render icon with url name correctly 1`] = `
-<i class="van-badge__wrapper van-icon">
-  <img class="van-icon__image"
+<i class="van-badge__wrapper pps-icon">
+  <img class="pps-icon__image"
        src="https://img.yzcdn.com/icon.jpg"
   >
 </i>

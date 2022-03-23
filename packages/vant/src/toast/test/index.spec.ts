@@ -72,7 +72,7 @@ test('should change icon size when using icon-size prop', async () => {
   });
 
   await later();
-  expect(wrapper.find('.van-icon').style.fontSize).toEqual('10px');
+  expect(wrapper.find('.pps-icon').style.fontSize).toEqual('10px');
 });
 
 test('should change loading icon size when using icon-size prop', async () => {

@@ -11,7 +11,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="true"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-home-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-home-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -24,7 +24,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-search">
+        <i class="van-badge__wrapper pps-icon pps-icon-search">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -37,7 +37,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-friends-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-friends-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -50,7 +50,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-setting-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-setting-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -69,7 +69,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="true"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-home-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-home-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -82,7 +82,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-search">
+        <i class="van-badge__wrapper pps-icon pps-icon-search">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -95,7 +95,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-friends-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-friends-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -108,7 +108,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-setting-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-setting-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -127,7 +127,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="true"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-home-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-home-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -140,7 +140,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-search">
+        <i class="van-badge__wrapper pps-icon pps-icon-search">
         </i>
         <div class="van-badge van-badge--top-right van-badge--dot van-badge--fixed">
         </div>
@@ -155,7 +155,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-friends-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-friends-o">
         </i>
         <div class="van-badge van-badge--top-right van-badge--fixed">
           5
@@ -171,7 +171,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-setting-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-setting-o">
         </i>
         <div class="van-badge van-badge--top-right van-badge--fixed">
           20
@@ -210,7 +210,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-search">
+        <i class="van-badge__wrapper pps-icon pps-icon-search">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -223,7 +223,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-setting-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-setting-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -243,7 +243,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="true"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-home-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-home-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -257,7 +257,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-search">
+        <i class="van-badge__wrapper pps-icon pps-icon-search">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -271,7 +271,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-friends-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-friends-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -285,7 +285,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-setting-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-setting-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -304,7 +304,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="true"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-home-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-home-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -317,7 +317,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-search">
+        <i class="van-badge__wrapper pps-icon pps-icon-search">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -330,7 +330,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-friends-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-friends-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">
@@ -343,7 +343,7 @@ exports[`should render demo and match snapshot 1`] = `
          aria-selected="false"
     >
       <div class="van-badge__wrapper van-tabbar-item__icon">
-        <i class="van-badge__wrapper van-icon van-icon-setting-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-setting-o">
         </i>
       </div>
       <div class="van-tabbar-item__text">

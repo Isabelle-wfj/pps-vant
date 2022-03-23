@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import VanCollapse from '..';
 import VanCollapseItem from '../../collapse-item';
-import VanIcon from '../../icon';
+import PpsIcon from '../../icon';
 import { ref } from 'vue';
 import { useTranslate } from '../../../docs/site/use-translate';
 
@@ -75,7 +75,7 @@ const active4 = ref([]);
     <van-collapse v-model="active4">
       <van-collapse-item>
         <template #title>
-          {{ t('title') + 1 }}<van-icon name="question-o" />
+          {{ t('title') + 1 }}<pps-icon name="question-o" />
         </template>
         {{ t('text1') }}
       </van-collapse-item>
@@ -92,7 +92,7 @@ const active4 = ref([]);
 
 <style lang="less">
 .demo-collapse {
-  .van-icon-question-o {
+  .pps-icon-question-o {
     margin-left: 5px;
     color: var(--van-blue);
     font-size: 15px;

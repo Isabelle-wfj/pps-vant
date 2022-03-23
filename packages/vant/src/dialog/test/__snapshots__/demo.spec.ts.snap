@@ -11,7 +11,7 @@ exports[`should render demo and match snapshot 1`] = `
         Alert
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -23,7 +23,7 @@ exports[`should render demo and match snapshot 1`] = `
         Alert without title
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -35,7 +35,7 @@ exports[`should render demo and match snapshot 1`] = `
         Confirm dialog
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
 </div>
@@ -49,7 +49,7 @@ exports[`should render demo and match snapshot 1`] = `
         Alert
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -61,7 +61,7 @@ exports[`should render demo and match snapshot 1`] = `
         Alert without title
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
 </div>
@@ -75,7 +75,7 @@ exports[`should render demo and match snapshot 1`] = `
         Before Close
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
 </div>
@@ -89,7 +89,7 @@ exports[`should render demo and match snapshot 1`] = `
         Component Call
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <transition-stub>

@@ -5,7 +5,7 @@ exports[`should render demo and match snapshot 1`] = `
   <div class="van-uploader">
     <div class="van-uploader__wrapper">
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"
@@ -25,7 +25,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -34,7 +34,7 @@ exports[`should render demo and match snapshot 1`] = `
              tabindex="0"
              aria-label="Delete"
         >
-          <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
           </i>
         </div>
       </div>
@@ -45,7 +45,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -54,12 +54,12 @@ exports[`should render demo and match snapshot 1`] = `
              tabindex="0"
              aria-label="Delete"
         >
-          <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
           </i>
         </div>
       </div>
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"
@@ -80,7 +80,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -111,12 +111,12 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
         <div class="van-uploader__mask">
-          <i class="van-badge__wrapper van-icon van-icon-close van-uploader__mask-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-close van-uploader__mask-icon">
           </i>
           <div class="van-uploader__mask-message">
             Failed
@@ -127,12 +127,12 @@ exports[`should render demo and match snapshot 1`] = `
              tabindex="0"
              aria-label="Delete"
         >
-          <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
           </i>
         </div>
       </div>
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"
@@ -152,7 +152,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -161,12 +161,12 @@ exports[`should render demo and match snapshot 1`] = `
              tabindex="0"
              aria-label="Delete"
         >
-          <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
           </i>
         </div>
       </div>
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"
@@ -187,7 +187,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -196,12 +196,12 @@ exports[`should render demo and match snapshot 1`] = `
              tabindex="0"
              aria-label="Delete"
         >
-          <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
           </i>
         </div>
       </div>
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"
@@ -220,7 +220,7 @@ exports[`should render demo and match snapshot 1`] = `
                 class="van-button van-button--primary van-button--normal"
         >
           <div class="van-button__content">
-            <i class="van-badge__wrapper van-icon van-icon-plus van-button__icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-plus van-button__icon">
             </i>
             <span class="van-button__text">
               Upload File
@@ -245,7 +245,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
           <div class="van-uploader__preview-cover">
@@ -259,12 +259,12 @@ exports[`should render demo and match snapshot 1`] = `
              tabindex="0"
              aria-label="Delete"
         >
-          <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
           </i>
         </div>
       </div>
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"
@@ -278,7 +278,7 @@ exports[`should render demo and match snapshot 1`] = `
   <div class="van-uploader">
     <div class="van-uploader__wrapper">
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"
@@ -292,7 +292,7 @@ exports[`should render demo and match snapshot 1`] = `
   <div class="van-uploader">
     <div class="van-uploader__wrapper van-uploader__wrapper--disabled">
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"
@@ -313,7 +313,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -325,7 +325,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: cover;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -334,7 +334,7 @@ exports[`should render demo and match snapshot 1`] = `
              tabindex="0"
              aria-label="Delete"
         >
-          <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
           </i>
         </div>
       </div>
@@ -347,7 +347,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: contain;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -356,12 +356,12 @@ exports[`should render demo and match snapshot 1`] = `
              tabindex="0"
              aria-label="Delete"
         >
-          <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
           </i>
         </div>
       </div>
       <div class="van-uploader__upload">
-        <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
         </i>
         <input type="file"
                class="van-uploader__input"

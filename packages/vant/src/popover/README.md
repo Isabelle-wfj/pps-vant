@@ -225,7 +225,7 @@ export default {
 | close-on-click-outside | Whether to close when clicking outside | _boolean_ | `true` |
 | close-on-click-overlay `v3.0.10` | Whether to close when clicking overlay | _boolean_ | `true` |
 | teleport | Specifies a target element where Popover will be mounted | _string \| Element_ | `body` |
-| icon-prefix `v3.0.17` | Icon className prefix | _string_ | `van-icon` |
+| icon-prefix `v3.0.17` | Icon className prefix | _string_ | `pps-icon` |
 
 ### Data Structure of PopoverAction
 

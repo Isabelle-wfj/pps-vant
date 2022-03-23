@@ -171,7 +171,7 @@ exports[`should render demo and match snapshot 1`] = `
   <div class="van-cell-group van-cell-group--inset">
     <div class="van-cell van-field">
       <div class="van-field__left-icon">
-        <i class="van-badge__wrapper van-icon van-icon-smile-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-smile-o">
         </i>
       </div>
       <div class="van-cell__title van-field__label">
@@ -190,7 +190,7 @@ exports[`should render demo and match snapshot 1`] = `
                  aria-labelledby="van-field-label"
           >
           <div class="van-field__right-icon">
-            <i class="van-badge__wrapper van-icon van-icon-warning-o">
+            <i class="van-badge__wrapper pps-icon pps-icon-warning-o">
             </i>
           </div>
         </div>
@@ -198,7 +198,7 @@ exports[`should render demo and match snapshot 1`] = `
     </div>
     <div class="van-cell van-field">
       <div class="van-field__left-icon">
-        <i class="van-badge__wrapper van-icon van-icon-music-o">
+        <i class="van-badge__wrapper pps-icon pps-icon-music-o">
         </i>
       </div>
       <div class="van-cell__title van-field__label">

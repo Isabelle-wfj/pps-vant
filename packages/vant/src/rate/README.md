@@ -142,7 +142,7 @@ export default {
 | disabled-color | Disabled color | _string_ | `#c8c9cc` |
 | icon | Selected icon | _string_ | `star` |
 | void-icon | Void icon | _string_ | `star-o` |
-| icon-prefix | Icon className prefix | _string_ | `van-icon` |
+| icon-prefix | Icon className prefix | _string_ | `pps-icon` |
 | allow-half | Whether to allow half star | _boolean_ | `false` |
 | readonly | Whether to be readonly | _boolean_ | `false` |
 | disabled | Whether to disable rate | _boolean_ | `false` |

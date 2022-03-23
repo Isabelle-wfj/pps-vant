@@ -117,7 +117,7 @@ app.use(Button);
 | text | Text | _string_ | - |
 | color | Color, support linear-gradient | _string_ | - |
 | icon | Left Icon | _string_ | - |
-| icon-prefix | Icon className prefix | _string_ | `van-icon` |
+| icon-prefix | Icon className prefix | _string_ | `pps-icon` |
 | icon-position | Icon position, can be set to `right` | _string_ | `left` |
 | tag | HTML Tag | _string_ | `button` |
 | native-type | Native Type Attribute | _string_ | `button` |

@@ -86,7 +86,7 @@ exports[`should render demo and match snapshot 1`] = `
     <div class="child">
     </div>
     <div class="van-badge van-badge--top-right van-badge--fixed">
-      <i class="van-badge__wrapper van-icon van-icon-success badge-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-success badge-icon">
       </i>
     </div>
   </div>
@@ -94,7 +94,7 @@ exports[`should render demo and match snapshot 1`] = `
     <div class="child">
     </div>
     <div class="van-badge van-badge--top-right van-badge--fixed">
-      <i class="van-badge__wrapper van-icon van-icon-cross badge-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-cross badge-icon">
       </i>
     </div>
   </div>
@@ -102,7 +102,7 @@ exports[`should render demo and match snapshot 1`] = `
     <div class="child">
     </div>
     <div class="van-badge van-badge--top-right van-badge--fixed">
-      <i class="van-badge__wrapper van-icon van-icon-down badge-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-down badge-icon">
       </i>
     </div>
   </div>

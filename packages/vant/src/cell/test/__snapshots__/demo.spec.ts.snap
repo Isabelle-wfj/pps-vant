@@ -94,7 +94,7 @@ exports[`should render demo and match snapshot 1`] = `
 </div>
 <div>
   <div class="van-cell">
-    <i class="van-badge__wrapper van-icon van-icon-location-o van-cell__left-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-location-o van-cell__left-icon">
     </i>
     <div class="van-cell__title">
       <span>
@@ -127,7 +127,7 @@ exports[`should render demo and match snapshot 1`] = `
         Cell title
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -144,7 +144,7 @@ exports[`should render demo and match snapshot 1`] = `
         Content
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -161,7 +161,7 @@ exports[`should render demo and match snapshot 1`] = `
         Content
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow-down van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow-down van-cell__right-icon">
     </i>
   </div>
 </div>
@@ -175,7 +175,7 @@ exports[`should render demo and match snapshot 1`] = `
         URL
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell van-cell--clickable"
@@ -187,7 +187,7 @@ exports[`should render demo and match snapshot 1`] = `
         Vue Router
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
 </div>
@@ -247,18 +247,18 @@ exports[`should render demo and match snapshot 1`] = `
         Content
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-arrow van-cell__right-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-arrow van-cell__right-icon">
     </i>
   </div>
   <div class="van-cell">
-    <i class="van-badge__wrapper van-icon van-icon-shop-o van-cell__left-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-shop-o van-cell__left-icon">
     </i>
     <div class="van-cell__title">
       <span>
         Cell title
       </span>
     </div>
-    <i class="van-badge__wrapper van-icon van-icon-search search-icon">
+    <i class="van-badge__wrapper pps-icon pps-icon-search search-icon">
     </i>
   </div>
 </div>

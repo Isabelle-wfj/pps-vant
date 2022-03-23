@@ -80,19 +80,19 @@ Use `content` slot to custom the content of badge.
 <van-badge>
   <div class="child" />
   <template #content>
-    <van-icon name="success" class="badge-icon" />
+    <pps-icon name="success" class="badge-icon" />
   </template>
 </van-badge>
 <van-badge>
   <div class="child" />
   <template #content>
-    <van-icon name="cross" class="badge-icon" />
+    <pps-icon name="cross" class="badge-icon" />
   </template>
 </van-badge>
 <van-badge>
   <div class="child" />
   <template #content>
-    <van-icon name="down" class="badge-icon" />
+    <pps-icon name="down" class="badge-icon" />
   </template>
 </van-badge>
 ```

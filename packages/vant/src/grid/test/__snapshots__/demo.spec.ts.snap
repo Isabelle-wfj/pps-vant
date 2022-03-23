@@ -7,7 +7,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -18,7 +18,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -29,7 +29,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -40,7 +40,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -55,7 +55,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -66,7 +66,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -77,7 +77,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -88,7 +88,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -99,7 +99,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -110,7 +110,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -131,7 +131,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: contain;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -147,7 +147,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: contain;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -163,7 +163,7 @@ exports[`should render demo and match snapshot 1`] = `
                style="object-fit: contain;"
           >
           <div class="van-image__loading">
-            <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+            <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
             </i>
           </div>
         </div>
@@ -177,7 +177,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-top: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--square van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -188,7 +188,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-top: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--square van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -199,7 +199,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-top: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--square van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -210,7 +210,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-top: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--square van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -221,7 +221,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-top: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--square van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -232,7 +232,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-top: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--square van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -243,7 +243,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-top: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--square van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -254,7 +254,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-top: 25%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--square van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -271,7 +271,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-right: 10px;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -282,7 +282,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-right: 10px;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -293,7 +293,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-right: 10px;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -304,7 +304,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-right: 10px;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -315,7 +315,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-right: 10px; margin-top: 10px;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -326,7 +326,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-right: 10px; margin-top: 10px;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -337,7 +337,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-right: 10px; margin-top: 10px;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -348,7 +348,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 25%; padding-right: 10px; margin-top: 10px;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -363,7 +363,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--horizontal van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -374,7 +374,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--horizontal van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -385,7 +385,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 33.333333333333336%;"
     >
       <div class="van-grid-item__content van-grid-item__content--horizontal van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-photo-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-photo-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Text
@@ -403,7 +403,7 @@ exports[`should render demo and match snapshot 1`] = `
            class="van-grid-item__content van-grid-item__content--center van-grid-item__content--clickable van-hairline"
            tabindex="0"
       >
-        <i class="van-badge__wrapper van-icon van-icon-home-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-home-o van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           Vue Router
@@ -417,7 +417,7 @@ exports[`should render demo and match snapshot 1`] = `
            class="van-grid-item__content van-grid-item__content--center van-grid-item__content--clickable van-hairline"
            tabindex="0"
       >
-        <i class="van-badge__wrapper van-icon van-icon-search van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-search van-grid-item__icon">
         </i>
         <span class="van-grid-item__text">
           URL
@@ -432,7 +432,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 50%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-home-o van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-home-o van-grid-item__icon">
           <div class="van-badge van-badge--top-right van-badge--dot van-badge--fixed">
           </div>
         </i>
@@ -445,7 +445,7 @@ exports[`should render demo and match snapshot 1`] = `
          style="flex-basis: 50%;"
     >
       <div class="van-grid-item__content van-grid-item__content--center van-hairline">
-        <i class="van-badge__wrapper van-icon van-icon-search van-grid-item__icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-search van-grid-item__icon">
           <div class="van-badge van-badge--top-right van-badge--fixed">
             99+
           </div>

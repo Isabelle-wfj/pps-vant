@@ -12,7 +12,7 @@ exports[`delete preview image 1`] = `
              style="object-fit: cover;"
         >
         <div class="van-image__loading">
-          <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
           </i>
         </div>
       </div>
@@ -21,14 +21,14 @@ exports[`delete preview image 1`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
     <div class="van-uploader__upload"
          style="width: 30px; height: 30px;"
     >
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"
@@ -43,7 +43,7 @@ exports[`disable preview image 1`] = `
 <div class="van-uploader">
   <div class="van-uploader__wrapper">
     <div class="van-uploader__upload">
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"
@@ -59,7 +59,7 @@ exports[`disable preview image 2`] = `
   <div class="van-uploader__wrapper">
     <div class="van-uploader__preview">
       <div class="van-uploader__file">
-        <i class="van-badge__wrapper van-icon van-icon-description van-uploader__file-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-description van-uploader__file-icon">
         </i>
         <div class="van-uploader__file-name van-ellipsis">
           test.jpg
@@ -70,12 +70,12 @@ exports[`disable preview image 2`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
     <div class="van-uploader__upload">
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"
@@ -90,7 +90,7 @@ exports[`file message should be reactive 1`] = `
 <div class="van-uploader">
   <div class="van-uploader__wrapper">
     <div class="van-uploader__upload">
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"
@@ -111,7 +111,7 @@ exports[`image-fit prop 1`] = `
              style="object-fit: contain;"
         >
         <div class="van-image__loading">
-          <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
           </i>
         </div>
       </div>
@@ -120,12 +120,12 @@ exports[`image-fit prop 1`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
     <div class="van-uploader__upload">
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"
@@ -146,7 +146,7 @@ exports[`preview-cover slot 1`] = `
              style="object-fit: cover;"
         >
         <div class="van-image__loading">
-          <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
           </i>
         </div>
         <div class="van-uploader__preview-cover">
@@ -158,7 +158,7 @@ exports[`preview-cover slot 1`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
@@ -169,7 +169,7 @@ exports[`preview-cover slot 1`] = `
              style="object-fit: cover;"
         >
         <div class="van-image__loading">
-          <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
           </i>
         </div>
         <div class="van-uploader__preview-cover">
@@ -181,12 +181,12 @@ exports[`preview-cover slot 1`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
     <div class="van-uploader__upload">
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"
@@ -204,7 +204,7 @@ exports[`preview-size prop 1`] = `
       <div class="van-uploader__file"
            style="width: 30px; height: 30px;"
       >
-        <i class="van-badge__wrapper van-icon van-icon-description van-uploader__file-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-description van-uploader__file-icon">
         </i>
         <div class="van-uploader__file-name van-ellipsis">
           test.jpg
@@ -215,14 +215,14 @@ exports[`preview-size prop 1`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
     <div class="van-uploader__upload"
          style="width: 30px; height: 30px;"
     >
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"
@@ -243,7 +243,7 @@ exports[`render preview image 1`] = `
              style="object-fit: cover;"
         >
         <div class="van-image__loading">
-          <i class="van-badge__wrapper van-icon van-icon-photo van-image__loading-icon">
+          <i class="van-badge__wrapper pps-icon pps-icon-photo van-image__loading-icon">
           </i>
         </div>
       </div>
@@ -252,13 +252,13 @@ exports[`render preview image 1`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
     <div class="van-uploader__preview">
       <div class="van-uploader__file">
-        <i class="van-badge__wrapper van-icon van-icon-description van-uploader__file-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-description van-uploader__file-icon">
         </i>
         <div class="van-uploader__file-name van-ellipsis">
           https://img.yzcdn.cn/vant/test.pdf
@@ -269,13 +269,13 @@ exports[`render preview image 1`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
     <div class="van-uploader__preview">
       <div class="van-uploader__file">
-        <i class="van-badge__wrapper van-icon van-icon-description van-uploader__file-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-description van-uploader__file-icon">
         </i>
         <div class="van-uploader__file-name van-ellipsis">
           test.jpg
@@ -286,12 +286,12 @@ exports[`render preview image 1`] = `
            tabindex="0"
            aria-label="Delete"
       >
-        <i class="van-badge__wrapper van-icon van-icon-cross van-uploader__preview-delete-icon">
+        <i class="van-badge__wrapper pps-icon pps-icon-cross van-uploader__preview-delete-icon">
         </i>
       </div>
     </div>
     <div class="van-uploader__upload">
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"
@@ -306,7 +306,7 @@ exports[`should not render upload input when using readonly prop 1`] = `
 <div class="van-uploader">
   <div class="van-uploader__wrapper">
     <div class="van-uploader__upload van-uploader__upload--readonly">
-      <i class="van-badge__wrapper van-icon van-icon-photograph van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-photograph van-uploader__upload-icon">
       </i>
     </div>
   </div>
@@ -317,7 +317,7 @@ exports[`upload-icon prop 1`] = `
 <div class="van-uploader">
   <div class="van-uploader__wrapper">
     <div class="van-uploader__upload">
-      <i class="van-badge__wrapper van-icon van-icon-add van-uploader__upload-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-add van-uploader__upload-icon">
       </i>
       <input type="file"
              class="van-uploader__input"

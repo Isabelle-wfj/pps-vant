@@ -87,7 +87,7 @@ Use the `disabled` prop to disable CollapseItem.
 <van-collapse v-model="activeNames">
   <van-collapse-item name="1">
     <template #title>
-      <div>Title1 <van-icon name="question-o" /></div>
+      <div>Title1 <pps-icon name="question-o" /></div>
     </template>
     Content 1
   </van-collapse-item>

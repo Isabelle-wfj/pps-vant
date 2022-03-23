@@ -19,7 +19,7 @@ exports[`should render label slot correctly 1`] = `
 
 exports[`should render left icon when using left-icon prop 1`] = `
 <div class="van-field__left-icon">
-  <i class="van-badge__wrapper van-icon van-icon-setting-o">
+  <i class="van-badge__wrapper pps-icon pps-icon-setting-o">
   </i>
 </div>
 `;
@@ -30,7 +30,7 @@ exports[`should render left slot correctly 1`] = `
   <div class="van-search__content van-search__content--square">
     <div class="van-cell van-cell--borderless van-field van-search__field">
       <div class="van-field__left-icon">
-        <i class="van-badge__wrapper van-icon van-icon-search">
+        <i class="van-badge__wrapper pps-icon pps-icon-search">
         </i>
       </div>
       <div class="van-cell__value van-cell__value--alone van-field__value">
@@ -48,7 +48,7 @@ exports[`should render left slot correctly 1`] = `
 
 exports[`should render right icon when using right-icon prop 1`] = `
 <div class="van-field__right-icon">
-  <i class="van-badge__wrapper van-icon van-icon-setting-o">
+  <i class="van-badge__wrapper pps-icon pps-icon-setting-o">
   </i>
 </div>
 `;

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should change close icon when using close-icon prop 1`] = `
-<i class="van-badge__wrapper van-icon van-icon-success van-cascader__close-icon van-haptics-feedback">
+<i class="van-badge__wrapper pps-icon pps-icon-success van-cascader__close-icon van-haptics-feedback">
 </i>
 `;
 
@@ -29,7 +29,7 @@ exports[`should render options-top、options-bottom slots correctly 1`] = `
       <span>
         Zhejiang
       </span>
-      <i class="van-badge__wrapper van-icon van-icon-success van-cascader__selected-icon">
+      <i class="van-badge__wrapper pps-icon pps-icon-success van-cascader__selected-icon">
       </i>
     </li>
     <li role="menuitemradio"
@@ -61,7 +61,7 @@ exports[`should select correct option when value changed 1`] = `
   <span>
     Wenzhou
   </span>
-  <i class="van-badge__wrapper van-icon van-icon-success van-cascader__selected-icon">
+  <i class="van-badge__wrapper pps-icon pps-icon-success van-cascader__selected-icon">
   </i>
 </li>
 `;
@@ -71,7 +71,7 @@ exports[`should update tabs when previous tab is clicked 1`] = `
   <div class="van-cascader__header">
     <h2 class="van-cascader__title">
     </h2>
-    <i class="van-badge__wrapper van-icon van-icon-cross van-cascader__close-icon van-haptics-feedback">
+    <i class="van-badge__wrapper pps-icon pps-icon-cross van-cascader__close-icon van-haptics-feedback">
     </i>
   </div>
   <div class="van-tabs van-tabs--line van-cascader__tabs">
@@ -140,7 +140,7 @@ exports[`should update tabs when previous tab is clicked 1`] = `
                   <span>
                     Jiangsu
                   </span>
-                  <i class="van-badge__wrapper van-icon van-icon-success van-cascader__selected-icon">
+                  <i class="van-badge__wrapper pps-icon pps-icon-success van-cascader__selected-icon">
                   </i>
                 </li>
               </ul>

@@ -837,7 +837,7 @@ exports[`should render demo and match snapshot 1`] = `
              aria-controls="van-tab"
         >
           <span class="van-tab__text van-tab__text--ellipsis">
-            <i class="van-badge__wrapper van-icon van-icon-more-o">
+            <i class="van-badge__wrapper pps-icon pps-icon-more-o">
             </i>
             Tab
           </span>
@@ -850,7 +850,7 @@ exports[`should render demo and match snapshot 1`] = `
              aria-controls="van-tab"
         >
           <span class="van-tab__text van-tab__text--ellipsis">
-            <i class="van-badge__wrapper van-icon van-icon-more-o">
+            <i class="van-badge__wrapper pps-icon pps-icon-more-o">
             </i>
             Tab
           </span>

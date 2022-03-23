@@ -187,7 +187,7 @@ export default {
 | --- | --- | --- | --- |
 | name | Identifier | _number \| string_ | Item index |
 | icon | Icon name | _string_ | - |
-| icon-prefix | Icon className prefix | _string_ | `van-icon` |
+| icon-prefix | Icon className prefix | _string_ | `pps-icon` |
 | dot | Whether to show red dot | _boolean_ | - |
 | badge | Content of the badge | _number \| string_ | `''` |
 | badge-props `v3.2.8` | Props of Badge，see [Badge - props](#/en-US/badge#props) | _BadgeProps_ | - |

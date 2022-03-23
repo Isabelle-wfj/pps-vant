@@ -116,7 +116,7 @@ const t = useTranslate({
       </template>
     </van-cell>
 
-    <van-cell icon="shop-o" :title="t('cell')">
+    <van-cell icon="pdf" :title="t('cell')">
       <template #right-icon>
         <pps-icon name="search" class="search-icon" />
       </template>

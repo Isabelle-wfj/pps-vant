@@ -24,7 +24,7 @@ export type CheckerParent = {
 
 export const checkerProps = {
   name: unknownProp,
-  shape: makeStringProp<CheckerShape>('round'),
+  shape: makeStringProp<CheckerShape>('square'),
   disabled: Boolean,
   iconSize: numericProp,
   modelValue: unknownProp,
@@ -93,8 +93,16 @@ export default defineComponent({
         >
           {slots.icon ? (
             slots.icon({ checked, disabled: disabled.value })
+          ) : shape === 'square' ? (
+            <Icon
+              name={checked ? 'check' : 'check-o'}
+              style={iconStyle.value}
+            />
           ) : (
-            <Icon name="success" style={iconStyle.value} />
+            <Icon
+              name={checked ? 'radio' : 'radio-o'}
+              style={iconStyle.value}
+            />
           )}
         </div>
       );

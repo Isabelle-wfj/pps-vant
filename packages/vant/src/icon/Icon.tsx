@@ -14,7 +14,7 @@ import {
 import { Badge, type BadgeProps } from '../badge';
 import { CONFIG_PROVIDER_KEY } from '../config-provider/ConfigProvider';
 
-const [name, bem] = createNamespace('icon');
+const [name, bem] = createNamespace('icon', 'pps');
 
 const isImage = (name?: string) => name?.includes('/');
 

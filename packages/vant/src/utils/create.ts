@@ -61,8 +61,8 @@ export function createBEM(name: string) {
 
 export type BEM = ReturnType<typeof createBEM>;
 
-export function createNamespace(name: string) {
-  const prefixedName = `van-${name}`;
+export function createNamespace(name: string, prefix = 'van') {
+  const prefixedName = `${prefix}-${name}`;
   return [
     prefixedName,
     createBEM(prefixedName),

@@ -92,7 +92,7 @@ const toggleAll = () => {
   </demo-block>
 
   <demo-block :title="t('customShape')">
-    <van-checkbox v-model="state.checkboxShape" shape="square">
+    <van-checkbox v-model="state.checkboxShape" shape="round">
       {{ t('customShape') }}
     </van-checkbox>
   </demo-block>
@@ -154,10 +154,10 @@ const toggleAll = () => {
     </van-checkbox-group>
 
     <div class="demo-checkbox-buttons">
-      <van-button type="primary" @click="checkAll">
+      <van-button type="primary" size="small" @click="checkAll">
         {{ t('checkAll') }}
       </van-button>
-      <van-button type="primary" @click="toggleAll">
+      <van-button type="primary" size="small" @click="toggleAll">
         {{ t('inverse') }}
       </van-button>
     </div>

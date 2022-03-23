@@ -63,7 +63,7 @@ const t = useTranslate({
 });
 
 const tab = ref(0);
-const demoIcon = 'chat-o';
+const demoIcon = 'file-down';
 const demoImage = 'https://b.yzcdn.cn/vant/icon-demo-1126.png';
 const cdnSvg = 'https://cdn.ipampas.com/common/images/svgs/';
 
@@ -124,10 +124,10 @@ const copy = (icon: string, option: Record<string, unknown> = {}) => {
       <demo-block :title="t('color')">
         <van-row>
           <van-col span="6" @click="copy(demoIcon, { color: '#1989fa' })">
-            <pps-icon name="cart-o" color="#1989fa" />
+            <pps-icon name="img" color="#1989fa" />
           </van-col>
           <van-col span="6" @click="copy(demoIcon, { color: '#ee0a24' })">
-            <pps-icon name="fire-o" color="#ee0a24" />
+            <pps-icon name="pdf" color="#ee0a24" />
           </van-col>
         </van-row>
       </demo-block>

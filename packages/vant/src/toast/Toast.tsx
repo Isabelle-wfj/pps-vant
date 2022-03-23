@@ -100,7 +100,7 @@ export default defineComponent({
       if (hasIcon) {
         return (
           <Icon
-            name={icon || type + '-circle-o'}
+            name={icon || type + '-o'}
             size={iconSize}
             class={bem('icon')}
             classPrefix={iconPrefix}

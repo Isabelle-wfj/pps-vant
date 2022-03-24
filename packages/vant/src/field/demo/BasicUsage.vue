@@ -20,7 +20,7 @@ const value = ref('');
 
 <template>
   <demo-block :title="t('basicUsage')">
-    <van-cell-group inset>
+    <van-cell-group>
       <van-field
         v-model="value"
         :label="t('label')"

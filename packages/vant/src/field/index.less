@@ -15,15 +15,27 @@
   --van-field-right-icon-color: @field-right-icon-color;
   --van-field-error-message-color: @field-error-message-color;
   --van-field-error-message-font-size: @field-error-message-font-size;
+  --van-field-error-message-padding-top: @field-error-message-padding-top;
   --van-field-text-area-min-height: @field-text-area-min-height;
   --van-field-word-limit-color: @field-word-limit-color;
   --van-field-word-limit-font-size: @field-word-limit-font-size;
   --van-field-word-limit-line-height: @field-word-limit-line-height;
   --van-field-disabled-text-color: @field-disabled-text-color;
   --van-field-required-mark-color: @field-required-mark-color;
+  --van-filed-has-required-padding: @filed-has-required-padding;
 }
 
 .van-field {
+  &.van-cell {
+    font-size: var(--van-font-size-lg);
+    &.van-field--has-error::after {
+      border-color: var(--van-danger-color);
+    }
+    &.van-field--has-required {
+      padding-left: var(--van-filed-has-required-padding);
+    }
+  }
+
   &__label {
     flex: none;
     box-sizing: border-box;
@@ -46,6 +58,9 @@
         margin-right: 2px;
         color: var(--van-field-required-mark-color);
         content: '*';
+        vertical-align: middle;
+        display: inline-block;
+        line-height: 0;
       }
     }
   }
@@ -158,13 +173,14 @@
 
   &__left-icon .pps-icon,
   &__right-icon .pps-icon {
-    display: block;
+    display: inline-block;
     font-size: var(--van-field-icon-size);
-    line-height: inherit;
   }
 
   &__left-icon {
     margin-right: var(--van-padding-base);
+    display: flex;
+    align-items: center;
   }
 
   &__right-icon {
@@ -179,6 +195,8 @@
     color: var(--van-field-error-message-color);
     font-size: var(--van-field-error-message-font-size);
     text-align: left;
+    padding: var(--van-field-error-message-padding-top)
+      var(--van-cell-horizontal-padding);
 
     &--center {
       text-align: center;

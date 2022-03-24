@@ -27,7 +27,7 @@ const username = ref('');
 
 <template>
   <demo-block :title="t('errorInfo')">
-    <van-cell-group inset>
+    <van-cell-group>
       <van-field
         v-model="username"
         error

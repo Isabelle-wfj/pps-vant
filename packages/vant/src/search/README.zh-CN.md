@@ -150,6 +150,8 @@ export default {
 | --- | --- | --- | --- |
 | v-model | 当前输入的值 | _number \| string_ | - |
 | label | 搜索框左侧文本 | _string_ | - |
+| filter | 搜索框右侧筛选 | _string_ | `筛选` |
+| showFilter | 是否显示筛选 | _boolean_ | false |
 | name `v3.2.3` | 名称，作为提交表单时的标识符 | _string_ | - |
 | shape | 搜索框形状，可选值为 `round` | _string_ | `square` |
 | id `v3.2.2` | 搜索框 id，同时会设置 label 的 for 属性 | _string_ | `van-search-n-input` |
@@ -184,6 +186,7 @@ export default {
 | click-input | 点击输入区域时触发 | _event: MouseEvent_ |
 | click-left-icon `v3.4.0` | 点击左侧图标时触发 | _event: MouseEvent_ |
 | click-right-icon `3.4.0` | 点击右侧图标时触发 | _event: MouseEvent_ |
+| click-filter `3.4.0` | 点击右侧筛选区时触发 | _event: MouseEvent_ |
 | clear | 点击清除按钮后触发 | _event: MouseEvent_ |
 | cancel | 点击取消按钮时触发 | - |
 
@@ -224,6 +227,7 @@ searchRef.value?.focus();
 | label      | 自定义左侧文本（搜索框内）                                |
 | left-icon  | 自定义左侧图标（搜索框内）                                |
 | right-icon | 自定义右侧图标（搜索框内）                                |
+| filter     | 自定义右侧筛选（搜索框内）                                |
 
 ## 主题定制
 

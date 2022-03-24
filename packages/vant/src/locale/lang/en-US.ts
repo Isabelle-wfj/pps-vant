@@ -1,5 +1,7 @@
 export default {
   name: 'Name',
+  finsh: 'Finsh',
+  filter: 'Filter',
   tel: 'Phone',
   save: 'Save',
   confirm: 'Confirm',

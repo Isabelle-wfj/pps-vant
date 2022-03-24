@@ -51,6 +51,13 @@ const onClickButton = () => Toast(value6.value);
         @search="onSearch"
         @cancel="onCancel"
       />
+      <van-search
+        v-model="value5"
+        :placeholder="t('placeholder')"
+        show-filter
+        @search="onSearch"
+        @cancel="onCancel"
+      />
     </form>
   </demo-block>
 

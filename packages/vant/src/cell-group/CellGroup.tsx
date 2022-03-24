@@ -1,12 +1,12 @@
 import { defineComponent, type ExtractPropTypes } from 'vue';
-import { truthProp, createNamespace, BORDER_TOP_BOTTOM } from '../utils';
+import { createNamespace, BORDER_TOP_BOTTOM } from '../utils';
 
 const [name, bem] = createNamespace('cell-group');
 
 const cellGroupProps = {
   title: String,
   inset: Boolean,
-  border: truthProp,
+  border: Boolean,
 };
 
 export type CellGroupProps = ExtractPropTypes<typeof cellGroupProps>;

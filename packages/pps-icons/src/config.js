@@ -10,6 +10,8 @@ export default {
     'plus',
   ],
   outline: [
+    'filter',
+    'star-o',
     'success-o',
     'fail-o',
     'clock',
@@ -39,6 +41,7 @@ export default {
     'edit',
   ],
   filled: [
+    'star',
     'more',
     'info',
     'mine',

@@ -85,6 +85,7 @@ const t = useTranslate({
     <van-cell
       :title="t('cell')"
       is-link
+      :label="`${t('desc')}${t('desc')}`"
       arrow-direction="down"
       :value="t('content')"
     />

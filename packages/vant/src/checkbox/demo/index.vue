@@ -98,7 +98,7 @@ const toggleAll = () => {
   </demo-block>
 
   <demo-block :title="t('customColor')">
-    <van-checkbox v-model="state.checkbox2" checked-color="#ee0a24">
+    <van-checkbox v-model="state.checkbox2" checked-color="#34A876">
       {{ t('customColor') }}
     </van-checkbox>
   </demo-block>

@@ -25,7 +25,7 @@ app.use(CellGroup);
 
 ```html
 <!-- 可以使用 CellGroup 作为容器 -->
-<van-cell-group inset>
+<van-cell-group>
   <van-field v-model="value" label="文本" placeholder="请输入用户名" />
 </van-cell-group>
 ```
@@ -46,7 +46,7 @@ export default {
 根据 `type` 属性定义不同类型的输入框，默认值为 `text`。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <!-- 输入任意文本 -->
   <van-field v-model="text" label="文本" />
   <!-- 输入手机号，调起手机号键盘 -->
@@ -81,7 +81,7 @@ export default {
 通过 `readonly` 将输入框设置为只读状态，通过 `disabled` 将输入框设置为禁用状态。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <van-field label="文本" model-value="输入框只读" readonly />
   <van-field label="文本" model-value="输入框已禁用" disabled />
 </van-cell-group>
@@ -92,7 +92,7 @@ export default {
 通过 `left-icon` 和 `right-icon` 配置输入框两侧的图标，通过设置 `clearable` 在输入过程中展示清除图标。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <van-field
     v-model="value1"
     label="文本"
@@ -130,7 +130,7 @@ export default {
 设置 `required` 属性表示这是一个必填项，可以配合 `error` 或 `error-message` 属性显示对应的错误提示。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <van-field
     v-model="username"
     error
@@ -153,7 +153,7 @@ export default {
 通过 button 插槽可以在输入框尾部插入按钮。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <van-field
     v-model="sms"
     center
@@ -173,7 +173,7 @@ export default {
 通过 `formatter` 属性可以对输入的内容进行格式化，通过 `format-trigger` 属性可以指定执行格式化的时机，默认在输入时进行格式化。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <van-field
     v-model="value1"
     label="文本"
@@ -214,7 +214,7 @@ export default {
 对于 textarea，可以通过 `autosize` 属性设置高度自适应。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <van-field
     v-model="message"
     rows="1"
@@ -231,7 +231,7 @@ export default {
 设置 `maxlength` 和 `show-word-limit` 属性后会在底部显示字数统计。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <van-field
     v-model="message"
     rows="2"
@@ -250,7 +250,7 @@ export default {
 通过 `input-align` 属性可以设置输入框内容的对齐方式，可选值为 `center`、`right`。
 
 ```html
-<van-cell-group inset>
+<van-cell-group>
   <van-field
     v-model="value"
     label="文本"

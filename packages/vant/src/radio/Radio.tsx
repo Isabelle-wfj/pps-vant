@@ -1,7 +1,7 @@
 import { defineComponent, type ExtractPropTypes } from 'vue';
 
 // Utils
-import { pick, createNamespace } from '../utils';
+import { pick, createNamespace, extend, makeStringProp } from '../utils';
 import { RADIO_KEY } from '../radio-group/RadioGroup';
 
 // Composables
@@ -23,7 +23,9 @@ const [name, bem] = createNamespace('radio');
 export default defineComponent({
   name,
 
-  props: checkerProps,
+  props: extend({}, checkerProps, {
+    shape: makeStringProp<RadioShape>('round'),
+  }),
 
   emits: ['update:modelValue'],
 

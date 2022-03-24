@@ -1,5 +1,7 @@
 export default {
   name: '姓名',
+  finsh: '完成',
+  filter: '筛选',
   tel: '电话',
   save: '保存',
   confirm: '确认',

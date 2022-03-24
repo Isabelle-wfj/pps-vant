@@ -23,11 +23,11 @@ const icon2 = ref('123');
 
 <template>
   <demo-block :title="t('showIcon')">
-    <van-cell-group inset>
+    <van-cell-group>
       <van-field
         v-model="icon1"
         :label="t('text')"
-        left-icon="smile-o"
+        left-icon="clock"
         right-icon="warning-o"
         :placeholder="t('showIcon')"
       />
@@ -35,7 +35,7 @@ const icon2 = ref('123');
         v-model="icon2"
         clearable
         :label="t('text')"
-        left-icon="music-o"
+        left-icon="date"
         :placeholder="t('showClearIcon')"
       />
     </van-cell-group>

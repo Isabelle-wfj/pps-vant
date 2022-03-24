@@ -51,7 +51,7 @@ export default {
 将 `shape` 属性设置为 `square`，复选框的形状会变成方形。
 
 ```html
-<van-checkbox v-model="checked" shape="square">复选框</van-checkbox>
+<van-checkbox v-model="checked" shape="round">复选框</van-checkbox>
 ```
 
 ### 自定义颜色

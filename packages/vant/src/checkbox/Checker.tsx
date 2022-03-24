@@ -64,8 +64,7 @@ export default defineComponent({
 
       if (checkedColor && props.checked && !disabled.value) {
         return {
-          borderColor: checkedColor,
-          backgroundColor: checkedColor,
+          color: checkedColor,
         };
       }
     });

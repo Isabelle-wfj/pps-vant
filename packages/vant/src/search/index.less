@@ -12,6 +12,11 @@
   --van-search-action-padding: @search-action-padding;
   --van-search-action-text-color: @search-action-text-color;
   --van-search-action-font-size: @search-action-font-size;
+  --van-search-left-icon-font-size: @search-left-icon-font-size;
+  --van-search-content-padding: @search-content-padding;
+  --van-search-filter-color: @search-filter-color;
+  --van-search-filter-icon-size: @search-filter-icon-size;
+  --van-search-filter-icon-line-height: @search-filter-icon-line-height;
 }
 
 .van-search {
@@ -24,20 +29,56 @@
   &__content {
     display: flex;
     flex: 1;
-    padding-left: var(--van-padding-sm);
+    align-items: center;
+    padding: var(--van-search-content-padding);
     background: var(--van-search-content-background-color);
     border-radius: var(--van-border-radius-sm);
 
     &--round {
       border-radius: var(--van-border-radius-max);
     }
+
+    .van-cell {
+      padding: 0;
+      background: var(--van-search-content-background-color);
+      font-size: var(--van-font-size-md);
+    }
+  }
+
+  &__label,
+  &__filter {
+    font-size: var(--van-search-label-font-size);
+    flex-shrink: 0;
   }
 
   &__label {
     padding: var(--van-search-label-padding);
     color: var(--van-search-label-color);
-    font-size: var(--van-search-label-font-size);
-    line-height: var(--van-search-input-height);
+  }
+
+  &__filter {
+    color: var(--van-search-filter-color);
+    position: relative;
+    padding: 0 2px 0 10px;
+    cursor: pointer;
+    &::after {
+      position: absolute;
+      box-sizing: border-box;
+      content: ' ';
+      pointer-events: none;
+      right: -50%;
+      bottom: -20%;
+      left: -50%;
+      top: -8%;
+      border: 0 solid var(--van-border-color);
+      border-left-width: 1px;
+      transform: scale(0.5);
+    }
+    .pps-icon {
+      font-size: var(--van-search-filter-icon-size);
+      line-height: var(--van-search-filter-icon-line-height);
+      color: var(--van-text-color-4);
+    }
   }
 
   &__field {
@@ -49,7 +90,12 @@
       color: var(--van-search-left-icon-color);
     }
   }
-
+  .van-field__left-icon {
+    .pps-icon {
+      color: var(--van-search-left-icon-color);
+      font-size: var(--van-search-left-icon-font-size);
+    }
+  }
   &--show-action {
     padding-right: 0;
   }

@@ -78,7 +78,7 @@ export const fieldSharedProps = {
   modelValue: makeNumericProp(''),
   inputAlign: String as PropType<FieldTextAlign>,
   placeholder: String,
-  autocomplete: String,
+  autocomplete: makeStringProp('off'),
   errorMessage: String,
   clearTrigger: makeStringProp<FieldClearTrigger>('focus'),
   formatTrigger: makeStringProp<FieldFormatTrigger>('onChange'),
@@ -99,6 +99,11 @@ export const fieldSharedProps = {
 const fieldProps = extend({}, cellSharedProps, fieldSharedProps, {
   rows: numericProp,
   type: makeStringProp<FieldType>('text'),
+  showKeyboard: Boolean,
+  extraKey: {
+    type: [String, Array] as PropType<string | string[]>,
+    default: '',
+  },
   rules: Array as PropType<FieldRule[]>,
   autosize: [Boolean, Object] as PropType<boolean | FieldAutosizeConfig>,
   labelWidth: numericProp,
@@ -426,7 +431,6 @@ export default defineComponent({
       if (props.type === 'textarea') {
         return <textarea {...inputAttrs} />;
       }
-
       return <input {...mapInputType(props.type)} {...inputAttrs} />;
     };
 
@@ -520,7 +524,6 @@ export default defineComponent({
         {slots.button && <div class={bem('button')}>{slots.button()}</div>}
       </div>,
       renderWordLimit(),
-      renderMessage(),
     ];
 
     useExpose<FieldExpose>({
@@ -557,34 +560,42 @@ export default defineComponent({
       const labelAlign = getProp('labelAlign');
       const Label = renderLabel();
       const LeftIcon = renderLeftIcon();
+      const error =
+        (!form || form?.props?.showErrorMessage) &&
+        (props.errorMessage || state.validateMessage);
 
       return (
-        <Cell
-          v-slots={{
-            icon: LeftIcon ? () => LeftIcon : null,
-            title: Label ? () => Label : null,
-            value: renderFieldBody,
-            extra: slots.extra,
-          }}
-          size={props.size}
-          icon={props.leftIcon}
-          class={bem({
-            error: showError.value,
-            disabled,
-            [`label-${labelAlign}`]: labelAlign,
-          })}
-          center={props.center}
-          border={props.border}
-          isLink={props.isLink}
-          clickable={props.clickable}
-          titleStyle={labelStyle.value}
-          valueClass={bem('value')}
-          titleClass={[
-            bem('label', [labelAlign, { required: props.required }]),
-            props.labelClass,
-          ]}
-          arrowDirection={props.arrowDirection}
-        />
+        <>
+          <Cell
+            v-slots={{
+              icon: LeftIcon ? () => LeftIcon : null,
+              title: Label ? () => Label : null,
+              value: renderFieldBody,
+              extra: slots.extra,
+            }}
+            size={props.size}
+            icon={props.leftIcon}
+            class={bem({
+              error: showError.value,
+              'has-error': error,
+              'has-required': props.required,
+              disabled,
+              [`label-${labelAlign}`]: labelAlign,
+            })}
+            center={props.center}
+            border={props.border}
+            isLink={props.isLink}
+            clickable={props.clickable}
+            titleStyle={labelStyle.value}
+            valueClass={bem('value')}
+            titleClass={[
+              bem('label', [labelAlign, { required: props.required }]),
+              props.labelClass,
+            ]}
+            arrowDirection={props.arrowDirection}
+          />
+          {renderMessage()}
+        </>
       );
     };
   },

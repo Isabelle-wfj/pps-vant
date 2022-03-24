@@ -20,7 +20,7 @@ const t = useTranslate({
 
 <template>
   <demo-block :title="t('disabled')">
-    <van-cell-group inset>
+    <van-cell-group>
       <van-field
         :model-value="t('inputReadonly')"
         :label="t('text')"

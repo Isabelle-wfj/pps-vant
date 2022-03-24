@@ -47,7 +47,7 @@ const onChange = (value: number) => Toast(t('toastContent', value));
   </demo-block>
 
   <demo-block :title="t('customIcon')">
-    <van-rate v-model="value2" icon="like" void-icon="like-o" />
+    <van-rate v-model="value2" icon="info" void-icon="info-o" />
   </demo-block>
 
   <demo-block :title="t('customStyle')">

@@ -33,36 +33,25 @@
 
   &__icon {
     flex: none;
-    height: 1em;
     font-size: var(--van-radio-size);
-    line-height: 1em;
     cursor: pointer;
-
+    height: var(--van-radio-size);
     .pps-icon {
       display: block;
       box-sizing: border-box;
-      width: 1.25em;
-      height: 1.25em;
-      color: transparent;
-      font-size: 0.8em;
-      line-height: 1.25;
+      color: var(--van-gray-9);
+      font-size: var(--van-radio-size);
       text-align: center;
-      border: 1px solid var(--van-radio-border-color);
       transition-duration: var(--van-radio-transition-duration);
       transition-property: color, border-color, background-color;
     }
 
-    &--round {
-      .pps-icon {
-        border-radius: 100%;
-      }
-    }
-
     &--checked {
       .pps-icon {
-        color: var(--van-gray-1);
-        background-color: var(--van-radio-checked-icon-color);
-        border-color: var(--van-radio-checked-icon-color);
+        color: var(--van-gray-9);
+        &-success {
+          font-size: 24px;
+        }
       }
     }
 
@@ -70,8 +59,7 @@
       cursor: not-allowed;
 
       .pps-icon {
-        background-color: var(--van-radio-disabled-background-color);
-        border-color: var(--van-radio-disabled-icon-color);
+        color: var(--van-disabled-color);
       }
     }
 

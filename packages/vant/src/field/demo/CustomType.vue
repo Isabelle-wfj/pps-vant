@@ -6,16 +6,18 @@ import { useTranslate } from '../../../docs/site/use-translate';
 
 const t = useTranslate({
   'zh-CN': {
-    text: '文本',
+    text: '文本文本文本',
     digit: '整数',
     phone: '手机号',
     number: '数字',
+    idCard: '身份证号',
     customType: '自定义类型',
     smsPlaceholder: '请输入短信验证码',
     textPlaceholder: '请输入文本',
     digitPlaceholder: '请输入整数',
     phonePlaceholder: '请输入手机号',
     numberPlaceholder: '请输入数字（支持小数）',
+    idCardPlaceholder: '请输入身份证号',
     passwordPlaceholder: '请输入密码',
   },
   'en-US': {
@@ -38,11 +40,12 @@ const phone = ref('');
 const digit = ref('');
 const number = ref('');
 const password = ref('');
+const idCard = ref('');
 </script>
 
 <template>
   <demo-block :title="t('customType')">
-    <van-cell-group inset>
+    <van-cell-group>
       <van-field
         v-model="text"
         :label="t('text')"
@@ -51,20 +54,30 @@ const password = ref('');
       <van-field
         v-model="phone"
         type="tel"
+        :show-keyboard="true"
         :label="t('phone')"
         :placeholder="t('phonePlaceholder')"
       />
       <van-field
         v-model="digit"
         type="digit"
+        :show-keyboard="true"
         :label="t('digit')"
         :placeholder="t('digitPlaceholder')"
       />
       <van-field
         v-model="number"
         type="number"
+        :show-keyboard="true"
         :label="t('number')"
         :placeholder="t('numberPlaceholder')"
+      />
+      <van-field
+        v-model="idCard"
+        type="idCard"
+        :show-keyboard="true"
+        :label="t('idCard')"
+        :placeholder="t('idCardPlaceholder')"
       />
       <van-field
         v-model="password"

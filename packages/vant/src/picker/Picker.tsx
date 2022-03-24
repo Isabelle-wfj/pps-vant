@@ -46,10 +46,10 @@ export const pickerSharedProps = {
   loading: Boolean,
   readonly: Boolean,
   allowHtml: Boolean,
-  itemHeight: makeNumericProp(44),
+  itemHeight: makeNumericProp(48),
   showToolbar: truthProp,
   swipeDuration: makeNumericProp(1000),
-  visibleItemCount: makeNumericProp(6),
+  visibleItemCount: makeNumericProp(5),
   cancelButtonText: String,
   confirmButtonText: String,
 };

@@ -22,7 +22,7 @@ const value = ref('');
 
 <template>
   <demo-block :title="t('inputAlign')">
-    <van-cell-group inset>
+    <van-cell-group>
       <van-field
         v-model="value"
         :label="t('text')"

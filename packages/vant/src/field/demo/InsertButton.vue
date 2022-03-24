@@ -10,7 +10,7 @@ const t = useTranslate({
     sms: '短信验证码',
     sendSMS: '发送验证码',
     insertButton: '插入按钮',
-    smsPlaceholder: '请输入短信验证码',
+    smsPlaceholder: '请输入',
   },
   'en-US': {
     sms: 'SMS',
@@ -25,7 +25,7 @@ const sms = ref('');
 
 <template>
   <demo-block :title="t('insertButton')">
-    <van-cell-group inset>
+    <van-cell-group>
       <van-field
         v-model="sms"
         center

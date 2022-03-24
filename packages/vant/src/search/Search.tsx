@@ -17,6 +17,7 @@ import { useExpose } from '../composables/use-expose';
 
 // Components
 import { Field, FieldInstance } from '../field';
+import { Icon } from '../icon';
 
 // Types
 import type { SearchShape } from './types';
@@ -25,6 +26,8 @@ const [name, bem, t] = createNamespace('search');
 
 const searchProps = extend({}, fieldSharedProps, {
   label: String,
+  filter: makeStringProp(t('filter')),
+  showFilter: Boolean,
   shape: makeStringProp<SearchShape>('square'),
   leftIcon: makeStringProp('search'),
   clearable: truthProp,
@@ -41,6 +44,7 @@ export default defineComponent({
   props: searchProps,
 
   emits: [
+    'click-filter',
     'blur',
     'focus',
     'clear',
@@ -71,6 +75,8 @@ export default defineComponent({
       }
     };
 
+    const onFilter = (event: MouseEvent) => emit('click-filter', event);
+
     const getInputId = () => props.id || `${id}-input`;
 
     const renderLabel = () => {
@@ -79,6 +85,23 @@ export default defineComponent({
           <label class={bem('label')} for={getInputId()}>
             {slots.label ? slots.label() : props.label}
           </label>
+        );
+      }
+    };
+
+    const renderFilter = () => {
+      if (props.showFilter) {
+        return (
+          <div class={bem('filter')} onClick={onFilter}>
+            {slots.filter ? (
+              slots.filter()
+            ) : (
+              <>
+                <span>{props.filter}</span>
+                <Icon name="filter" />
+              </>
+            )}
+          </div>
         );
       }
     };
@@ -125,6 +148,7 @@ export default defineComponent({
         <Field
           v-slots={pick(slots, ['left-icon', 'right-icon'])}
           ref={filedRef}
+          size="normal"
           type="search"
           class={bem('field')}
           border={false}
@@ -152,6 +176,7 @@ export default defineComponent({
         <div class={bem('content', props.shape)}>
           {renderLabel()}
           {renderField()}
+          {renderFilter()}
         </div>
         {renderAction()}
       </div>

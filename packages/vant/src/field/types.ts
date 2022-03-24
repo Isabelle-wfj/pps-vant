@@ -3,6 +3,7 @@ import type { ComputedRef, ComponentPublicInstance } from 'vue';
 import type { FieldProps } from './Field';
 
 export type FieldType =
+  | 'idCard'
   | 'tel'
   | 'url'
   | 'date'
